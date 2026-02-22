@@ -1,0 +1,313 @@
+theory:
+Building machine learning models from scratch can be complex and time-consuming. However with the right tools and frameworks this process can become significantly easier. Scikit-learn is one such tool that makes machine learning model creation easy. It provides user-friendly tools for tasks like Classification, Regression, Clustering and many more.
+
+
+scikit-learn (formerly scikits.learn and also known as sklearn)
+
+Scikit-learn is a free, open-source Python library that helps users build machine learning models. It's a popular tool for data scientists and programmers. 
+
+Scikit-learn (sklearn) is a machine learning library for Python that's used to build and deploy models. It's used for classification, regression, clustering, and more. 
+
+ It features various classification, regression and clustering algorithms including support-vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy. Scikit-learn is a NumFOCUS fiscally sponsored project
+What can you do with scikit-learn?
+Classification: Identify which category an object belongs to, such as spam detection 
+Regression: Predict a continuous variable based on other variables, such as housing prices 
+Clustering: Automatically group similar objects into sets, such as customer segmentation 
+Dimensionality reduction: Simplify complex datasets by reducing the number of variables 
+Model selection: Compare different machine learning algorithms and tune their settings 
+Data preprocessing: Prepare data for machine learning algorithms, such as transforming text into numerical features 
+Features of scikit-learn 
+Open-source
+Built on NumPy, SciPy, and matplotlib
+Includes tools for model fitting, evaluation, and selection
+Offers a consistent Python interface
+Has extensive documentation and online tutorials
+
+Step 1: Load a Dataset
+A dataset is nothing but a collection of data. A dataset generally has two main components: 
+
+Features: They are also known as predictors, inputs or attributes. These are simply the variables of our data. They can be more than one and hence represented by a feature matrix (‘x’ is a common notation to represent feature matrix). A list of all the feature names is termed feature names.
+Response: They are also known as the target, label or output. This is the output variable depending on the feature variables. We generally have a single output variable column and it is represented by a response vector ( ‘y’ is a common notation to represent response vector). All the possible values taken by a response vector are termed target names.
+
+
+
+
+
+
+import pandas as pd
+
+data = [[50, True], [40, False], [30, False]]
+
+df = pd.DataFrame(data)
+
+print(df)
+
+    0      1
+0  50   True
+1  40  False
+2  30  False
+
+
+print(df.iloc[1,0])
+
+
+40
+
+
+To access more than one row, use double brackets and specify the indexes, separated by commas:
+
+df.iloc[[0, 2]]
+
+ 0      1
+0  50   True
+2  30  False
+
+
+
+print(df.iloc[[1, 0, 2, 2]])
+ 0      1
+1  40  False
+0  50   True
+2  30  False
+2  30  False
+
+
+Specify columns by including their indexes in another list:
+
+df.iloc[[0, 2], [0, 1]]
+
+ 0      1
+0  50   True
+2  30  False
+
+print(df.iloc[[0, 2], [0]])
+
+ 0
+0  50
+2  30
+
+print( df.iloc[ : , 0:1])
+
+   0
+0  50
+1  40
+2  30
+3  20
+
+print( df.iloc[ : , 0:2])
+
+0      1
+0  50   True
+1  40  False
+2  30  False
+3  20   True
+
+
+print( df.iloc[ : , 1])
+
+0     True
+1    False
+2    False
+3     True
+Name: 1, dtype: bool
+
+
+KNN ---
+-----
+
+
+# import packages 
+import pandas as pd 
+
+#  read data set 
+
+df = pd.read_csv("diabetesIndia.csv")
+
+# it will construct a data frame 
+
+df.head()
+
+
+
+
+# before dividing the data into trainset and test set 
+
+# seperate inputs and outputs 
+
+#  pregencies ----- age  === featutes or inputs 
+#  outcome   -------------- output variable / label 
+
+x  = df.iloc[ : , 0:8 ]
+
+y  = df.iloc[: , 8]  # df.iloc[: , -1]
+
+# y  = df.iloc[: , -1]
+
+#  df.iloc
+# data framew is a two dimension   rows columns 
+#  df.iloc [ srow : erow , scolumn : ecolumn ]
+
+
+
+#Print x
+
+x
+
+# print y
+
+y
+
+
+
+
+#  import package train_test_Split 
+
+from sklearn.model_selection import train_test_split 
+
+#  pass both inputs and outputs 
+#  input  train and test 
+#  output also with tran and test set 
+
+x_train , x_test , y_train , y_test =train_test_split(x,y,test_size = 0.2 )    # train_size      
+
+# test_size = 0.2   train size = 80   test = 20 % 
+
+# test_size = 0.3 train size = 70   test = 30 % 
+
+#  x    x_train , x_test 
+#  y    y_train , y_test 
+
+
+
+
+
+
+
+df.shape
+
+
+
+print(x_train.shape)
+print(x_test.shape)
+print(y_train.shape)
+print(y_test.shape)
+
+o/p :
+(614, 8)
+(154, 8)
+(614,)
+(154,)
+
+
+#   3. shuffle the data , keep 70 to 80% for training , remaining 20 to
+#30% for testing 
+
+
+#x_train , x_test , y_train , y_test =train_test_split(x,y,test_size = 0.2 )
+
+# by default = shuffle true 
+
+#     shuffle  =  False 
+
+
+from sklearn.neighbors import KNeighborsClassifier 
+
+knn_model = KNeighborsClassifier(n_neighbors=5,p=2,metric='minkowski')
+
+# gini , entrpoy     ===  by default  gini 
+
+# training the model 
+# during training both inputs and ouput 
+
+knn_model.fit(x_train,y_train)
+
+# during testing  only inputs 
+
+pred = knn_model.predict(x_test)  # y_test 
+
+# calculating accuracy 
+# from sklearn.metrics import accuracy_score 
+# score = accuracy_score(y_test,pred)
+# print(score)
+
+
+
+from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
+
+cm = confusion_matrix(y_test, pred)
+print("Confusion Matrix:\n", cm)
+
+
+
+score = accuracy_score(y_test,pred)
+print(score)
+
+
+
+# Compute precision
+precision = precision_score(y_test,pred)
+print("Precision:", precision)
+
+# Compute recall
+recall = recall_score(y_test,pred)
+print("Recall:", recall)
+
+# Compute F1 score
+f1 = f1_score(y_test,pred)
+print("F1 Score:", f1)
+
+
+
+
+
+
+
+
+Euclidean Distance Formula
+Consider two points (x1, y1) and (x2, y2) in a 2-dimensional space; the Euclidean Distance between them is given by using the formula:
+
+d = √[(x2 - x1)2 + (y2 - y1)2]
+
+Where,
+
+d is Euclidean Distance
+(x1, y1) is Coordinate of the first point
+(x2, y2) is Coordinate of the second point
+
+
+
+
+
+Confusion matrix
+
+https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall
+
+
+
+Actually positive	Actually negative
+Predicted positive	
+TP=40	
+FP=7
+Predicted negative	
+FN=8	
+TN=44
+Metrics
+Accuracy	0.85
+Precision	0.85
+Recall	0.83
+Confusion matrix
+Actually positive	Actually negative
+Predicted positive	
+TP=40	
+FP=7
+Predicted negative	
+FN=8	
+TN=44
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+import pandas as pd
+mydataset = { 
+    'cars' : ["BMW", "volvo", "ford"],
+    'price': ["9","5", "2"]             
+}
+
+df=pd.DataFrame(mydataset)
+print(df)
+
+print(df.loc[[0]])
+
+print(pd.__version__)
+
+pd.options.display.max_rows = 999
+
+df1=pd.read_csv('/content/drive/MyDrive/Datasets/data.csv')
+print(df1)
+
+print(df1.head(10))
+
+print(df1.tail(10))
+
+print(df1.info())
+
+#to append new row to the existing CSV file
+
+newrows= {
+    
+ 'Duration': [61],
+ 'Pulse': [110],
+ 'Maxpulse': [170],
+ 'Calories': [282.1]       
+
+}
+
+df2=pd.DataFrame(newrows)
+
+df2.to_csv('data.csv', mode='a',index=False,header=False)
+print(df1.to_string)
+
+print("Data appended successfully")
+
