@@ -1,0 +1,9 @@
+{
+  "project_name": "AIDL Analysis",
+  "workflow": "new-project",
+  "preferences": {
+    "auto_mode": true,
+    "research_skip": true,
+    "output_dir": "gsd-analysis"
+  }
+}
