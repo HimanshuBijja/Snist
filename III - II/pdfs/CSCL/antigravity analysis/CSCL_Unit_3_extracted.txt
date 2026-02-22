@@ -1,0 +1,506 @@
+--- PAGE 1 ---
+UNIT -III
+Law relating toelectronic records and intellectual property rights in
+India :Legal aspects ofElectronic records /Digital signatures, Cyber
+laws, theroles and regulations ofCertifying Authorities inIndia,
+Protection ofIntellectual Property Rights inCyberspace inIndia .
+TEXT BOOK:
+1. Cyber Laws and IT Protection, Harish Chander, PHI, 2012
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 2 ---
+Chapter 4: Legal aspects of Electronic records / Digital signatures
+Recognition of Electronic Records
+Under Indian law, information can be in writing or type written form or printed 
+form or electronic form.
+Section 4, IT Act, 2000 provides legal recognition to electronic records and accepted 
+in an electronic form.
+This is based on Article -5 of UNCITRAL(United Nations Commission on International 
+Trade Law), which states that any information cannot be denied if it in the data 
+message form.
+Even in the US, the Uniform Electronic Transaction Act, Section 201 states the 
+same.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 3 ---
+UNCITRAL Model law 
+Article 6 states the basic standards to be met by a data message.
+In many jurisdictions, writing, original and signature overlap, but model law 
+approaches them as three separate and different concepts.
+But they share common structure and should be read together.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 4 ---
+The legal recognition of Electronic/Digital signatures
+In Indian Law –Any information shall be authenticated by affixing the signature or 
+signed(hand written) document or electronic signature.
+➢In Article 7 of UNCITRAL Model law –signature is used to
+-Method used to identify the person and indicate person’s approval
+-Data message is reliable for communication and also includes relevant 
+agreement.
+-The person is associated with that content and endorse authorship of the text
+-The person was in the given place at that time.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 5 ---
+➢The Position in the US
+In US Law, Electronic signature means signature in electronic form and it is logically 
+associated with an electronic record.
+-In US law, signature means any symbol, sound, process or encryption or a record 
+in whole or in part adopted by a person with an intent 
+-identify the party
+-adopt or accept a term or record
+-information integrity
+-authenticity/validity
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 6 ---
+➢The position in Australia 
+In Court view, signature does not necessarily be handwritten. In some cases initial 
+is sufficient.
+--printed name only sent by telex was considered
+-Ordinary means personally signed it, or mark by a pen or by a stamp.
+Person sign means
+-Method used to identify the person and indicate person’s approval
+-The person is associated with that content, content may be written by someone 
+else.
+-The person was in the given place at that time.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 7 ---
+Electronic Records and Electronic Signatures/Digital Signatures and 
+their use by the government and its agencies in India
+InIndia, Where anylawprovides –
+(a)The filing ofany form, application orany document byany office, authority,
+body oragency owned orcontrolled bytheappropriate govt .
+(b)The issue orgrant ofany license, permit, sanction orapproval ofwhatever
+name called inaparticular manner
+(c)The receipt orpayment ofmoney(fees orcharges) inaparticular manner,
+bymeans ofelectronic form asprescribed bytheappropriate government .(Section
+6,ITAct, 2000 )
+For the efficient service tothe public through electronic means authorise any
+service provider setup, maintain and upgrade thecomputerised facilities .
+Due toincrease inthegrowth ofcommerce and business, thegovt .should increase
+function with thehelp ofelectronic records and electronic signatures .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 8 ---
+The provisions like filing the form, application orother documents, creation,
+retention orpreservation ofrecords, issue orgrant ofany license orpermit or
+receipt orpayment ingovt .offices, need tobedone inelectronic form inorder to
+give more efficiency tothefunctioning ofthegovt .and itsagencies .
+➢Retention ofelectronic records inIndia
+-Information remains accessible and usable forasubsequent reference .
+-The way inwhich itisgenerated orreceived format, same canberetrieved
+-Details like origin, destination, date and time facilitate toidentify electronic
+record .
+Note :This clause does not apply for any information which isautomatically
+generated
+(Section 7,ITAct, 2000 )
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 9 ---
+➢UNCITRAL Model law relating to retention of data messages
+Article 10 of UNCITRAL Model law provides
+-Information remains accessible and usable forasubsequent reference .
+-The data message isretained intheformat inwhich itwas generated orreceived
+orsent .
+-Details like origin, destination, date and time facilitate toidentify electronic
+record .
+Note :storage oftransmitted information often done bysomeone else rather than
+originator, such asintermediary (third party/database) .Ifthe person does not
+retain the required information, then itisintended asbad practice orwillful
+misconduct .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 10 ---
+➢Position in the US
+Under the Uniform Electronic Transactions Act, section 205 deals with provisions 
+for retention of electronic record. Requirements under law -
+-Information remains accessible and usable forasubsequent reference .
+-The data message isretained intheformat inwhich itwas generated orreceived
+orsent .
+-Details like origin, destination, date and time facilitate toidentify electronic
+record .
+Note :Information may become unavailable because ofstorage and become
+incapable ofreproducing the information .This isconsidered astechnology
+obsolescence .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 11 ---
+➢The Central Government’s Power to make Rules in India
+The rules central govt. may frame w.r.to electronic/digital signatures are
+-The type of signature
+-The manner and format in which it shall be affixed
+-The manner or procedure which facilitates the identification of the person
+-Control procedures to ensure adequate integrity, security and confidentiality of 
+electronic records and payments.
+The central govt. framed rules in the year 2004.
+Rule 3 is about filing the form, application or document by the appropriate person 
+using the specified software.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 12 ---
+The following things are taken into account w.r.to electronic records:
+-Lifetime
+-Preservability
+-Accessibility
+-Readability
+-Comprehensibility in respect of linked information
+-Authentication and integrity
+-And any license, permit, sanction or approval
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 13 ---
+➢Electronic Records: Attribution Acknowledgement and Dispatch in India
+Based on Article 13 of UNCITRAL Model law
+-if electronic record was sent by the originator himself
+-by a person who had the authority to act on behalf of originator
+-Automatically generated (system programmed) 
+➢Acknowledgement of receipt of electronic record in India
+Under Article 14 of UNCITRAL Model law provides
+-system generated mails (do not reply)
+-Stimulate time reply (otherwise treat that mail was not received)
+-Return receipt requested ( postal systems)
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 14 ---
+➢The Time and place ofdispatch and receipt ofelectronic records inIndia
+Under Article 15ofUNCITRAL Model lawprovides
+otherwise agreed between the originator and the addressee, the time of
+receipt ofanelectronic record shall bedetermined asfollows, namely –
+(a)iftheaddressee has designated acomputer resource forthepurpose of
+receiving electronic records
+(i)receipt occurs atthe time when the electronic record enters the
+designated computer resource ; or
+(ii)iftheelectronic record issent toacomputer resource oftheaddressee
+that isnot the designated computer resource, receipt occurs atthe time
+when theelectronic record isretrieved bytheaddressee ;
+(b)ifthe addressee has not designated acomputer resource along with
+specified timings, ifany, receipt occurs when theelectronic record enters the
+computer resource oftheaddressee .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 15 ---
+For the purposes of this section –
+(a) if the originator or the addressee has more than one place of business, the 
+principal place of business shall be the place of business;
+(b) if the originator or the addressee does not have a place of business, his usual 
+place of residence shall be deemed to be the place of business;
+(c) “Usual Place of Residence”, in relation to a body corporate, means the place 
+where it is registered.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 16 ---
+Chapter 5: T he roles and regulations of Certifying Authorities in India
+Due toincreased use ofelectronic communications, misuse ofthe electronic
+records and digital signatures also increased, because there isnodirect face-to-face
+interaction inthe electronic transaction, the problems concerning identity,
+authenticity and integrity arise from thepoint ofview oflawand lawyers .
+-Digital signature isused bythe business community for securing electronic
+records .
+Intheprocess ofcryptography, apublic keyinfrastructure consisting ofcertification
+authorities astrusted third parties, forsharing public keys inanauthenticated and
+reliable manner .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 17 ---
+The Role of Certifying Authority (CA)
+The Certifying Authority (CA) acts asatrusted third party inthe public key
+infrastructure .
+-CAplays important role –istocertify the public key associated with the given
+individual .
+The general characteristics areasfollows :
+-The authenticity ofthesubject participating inthecommercial communication .
+-The integrity ofthe message communicated orthe communication .The
+authenticity, integrity and confidentiality can beensured bythe independent
+third party, that istherole ofCAunder thelaw.
+-The certifying authority can bepublic authority orprivate authority .Present the
+state govt .agencies actastop level CAs who inturn certify the second tier of
+private sector CAs.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 18 ---
+Problems:
+-The CAs operations are automatic and may be exposed to many computer based 
+risks.
+-System failures –loss of keys
+-If CA’s private key is compromised, then corresponding public key can be revoked, 
+then all the certificates issued would be invalid.
+So, CA must also make its own public key available to the parties who want to verify 
+the certificates of consumers or users and if CA fails to perform its duties , results 
+significant loss to large number of innocent parties. 
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 19 ---
+➢Appointment of controller and his functions
+➢Obtaining license to issue Electronic/Digital signature certificates in India
+➢Renewal and suspension of license of the certifying authority
+➢Procedure for the grant or rejection of license to the certifying authority
+➢Some procedures and security guidelines for certifying authorities
+➢Procedure and prior requirements for surrender of license, and cessation as certifying authority
+➢Duties of certifying authorities for disclosure of information
+➢Electronic Signature certificate to be issued by certifying authorities
+➢Suspension of electronic/digital signature certificate
+➢Archiving electronic/digital signature certificates
+➢Revocation of electronic/digital signature certificates
+➢Rules of compromise and revocation of electronic/digital signature certificates
+➢The rules of confidential Information and access to confidential information
+➢Duties of subscribers under the law –Generating key pair
+➢The concept of acceptance of electronic/digital certificate by the subscriber
+➢The importance of the control of private key by the subscriber
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 20 ---
+Chapter 6: Protection of Intellectual Property Rights in Cyberspace in India
+➢The Cyberspace
+-Internet has made itpossible toreplace traditional paper based communications by
+paperless communication which does notknow physical orgeographical boundaries, andis
+available toanypartofglobe between theparties known orunknown toeach other .
+-Information stored inelectronic form ischeaper, easy tostore, retrieve andspeedier to
+communicate .
+-The advantages oftheinternet have naturally attracted many business people toconduct
+thebusiness through e-commerce .
+-Thechallenges thatthelawhasfaced intherecent years ishow totackle thedevelopment
+ofintellectual property ontheinternet while preventing itsunauthorized exploitation .
+-New works need copy right protection, notcovered under copyright Act, 1957 .
+-For protecting intellectual property, bytherule ofgovt.,World Intellectual Property
+Organization (WIPO) and World Trade Organization (WTO) arebrought under one
+umbrella .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 21 ---
+-Anattempt ismade tobalance theinterest oftheintellectual property owner and
+interest ofintellectual property users byensuring the adequate returns ontheir
+invested knowledge tothe intellectual property owners and toincrease social
+benefits from unrestricted access toknowledge bytheintellectual property users .
+-These aspects are clearly mentioned inthe agreement onTRIPs(Trade Related
+aspects ofIntellectual Property Rights) .
+-TRIPs agreement impose minimum standards onpatents, copyright, trademarks
+and thetrade secrets .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 22 ---
+➢The Relevance of Domain Names in Intellectual Property Rights
+-Before starting any online business activity, a company must be easily traceable on 
+the internet. For this company must have a address in the cyberspace.
+-Company must have a registration under a particular domain name and a website 
+of its own.
+-The Domain Name System (DNS) has made it possible, which enables a company 
+to conduct online transactions and make it easily traceable by the customers, 
+suppliers and other users.
+-It is difficult to remember all numeric IP addresses and therefore domain name 
+has a major role.
+-The representation of the company’s name and address on the internet can serve 
+as a typical trademark function for showing company’s recognition and goodwill 
+in the market place.
+-The type of attack possible w.r.to is “Cybersquatting”
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 23 ---
+➢Deception by squatting in cyberspace
+The term cybersquatting refers totheunauthorized registration and useofInternet
+domain names that areidentical orsimilar totrademarks, service marks, company
+names, orpersonal names .Cybersquatting registrants obtain and use thedomain
+name with thebad faith intent toprofit from thegoodwill oftheactual trademark
+owner .
+They usespecial software applications tomonitor theexpiry ofsome specific
+domain names .After registering the expired domain names, cyber squatters
+duplicate theoriginal websites and thus misleading thegenuine visitors ofsuch
+websites
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 24 ---
+-The consumer when looking tofind thename ofthebrand ontheinternet, theeasiest way
+forthem istotype adomain name ofthebrand orthecompany .
+-Generally, inIndia, adomain name hasatleast two keyparts .The second level domain
+describes like .Com or.Gov andthird level domain contains familiar name that describes
+product, service ortopic thatthewebsite address .
+-Inthisconnection itmay bepointed outthattheInternet Corporation ofAssigned Names
+and Numbers (ICANN) has adopted apolicy called Uniform Domain Name Dispute
+Resolution Policy (UDRP) which offers anexpedited administrative proceedings for
+trademark holders tocontent‘abusive registration ofdomainnames’ which provides
+cancellation, suspension ortransfer ofadomain name bytheregistrar .
+-The advantages oftheICANN’s dispute system areitsquick resolution ofdisputes and
+relatively low costs .IntheICANN’s policy theparties may even conduct theentire
+proceeding through electronic filings .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 25 ---
+➢Bad Faith in Relation to Domain Name Infringement
+Inorder toestablish “badfaith” intheproceeding forinfringement ofadomain name acomplainant hasto
+establish thefollowing points inorder toobtain relief :
+•Respondent’s domain name isidentical orconfusingly similar toatrademark orservice mark inwhich the
+complainant hasright .
+•Respondent hasnoright orlegitimate interest inrespect ofthedomain name .
+•Respondent’s domain name hasbeen registered andisbeing used inbadfaith.
+Inorder tofileadministrative proceedings successfully thecomplaint must prove thateach oftheabove three
+elements arepresent forthepurpose ofproof ofbadfaith onthepartofthedefendant .
+Ithasalso tobeshown thatthecomplainant haditsregistered domain name andthedefendant isusing itinbad
+faith.
+•Registering thedomain name with theprimary aimofsubsequently selling itataprofit .
+•Registering thedomain name primarily fordisrupting thebusiness ofthecompetitor .
+•Registering thedomain name inorder toprevent theowner ofthetrade mark from reflecting themark ina
+corresponding domain name .
+•Using thedomain name toattract internet users toone’s website bycreating alikelihood ofconfusion with the
+complainant’s trademark .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 26 ---
+➢Some Leading Cases Involving Complaints From India before WIPO
+•Before World Intellectual Property Organization (WIPO), thenumber ofcomplaints have been
+filed inIndian corporate houses ormedia companies .
+•Inmost ofthecases theIndian complaints involving domain names before WIPO have been
+decided infavor ofthecomplaints .
+•Wemay citetwocases .
+•InTata Sons Ltd.V.The advanced information Technology Association, itwas decided bythe
+WIPO Administrative panel, Instructing Network Solutions Inc.totransfer theimpugned domain
+name tata.orgtothecomplainant Tata Sons Ltd.
+•The administrative panel listrelied onthedecisions thathadbeen earlier given infavour ofTata
+Sons Ltd.BytheIndian courts providing protection totheTata trademark from abusive
+registrations .
+•Similarly intridenthotels .com case thecomplainant was Oberoi hotels which owned trade marks
+‘Trident’ and‘TridentHotels’ inIndia .Inthiscase thepanel held thattheuseoftheword‘Trident’
+incombination with theword hotels hasacertain distinctive character asitindicates achain hotels
+such asthecomplainants group .
+•Thedomain name tridenthotels .com signifies thatthedomain name wasintended tobeused fora
+chain ofhotels .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 27 ---
+➢Protection of Copyright on Cyberspace
+Thenew technology which ismulti -functional ITortheInternet poses number ofchallenges forlaws
+toprotect copyrights .Copyright being anintellectual property gives right totheauthors inliteracy,
+artistic, dramatic andmusical works .
+Asinother intellectual property rights available under thecopyright areessential negative innature,
+similarly these arebasically therights tostop others from doing certain things asforexample, right to
+stop privacy, counterfeit, copying orimitation .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 28 ---
+➢Rights of Software Copyright Owners
+We have brief pointed out the rights of the copyright owner as provided for under Section 14 of the 
+copyright Act, 1957. Here we will explain to understand the copyrights particularly of the software 
+copyright owners.
+•First theauthor ofthes/whastheright toreproduce andmake anynumber ofcopies ofhiswork as
+hehikes .
+•Secondly thes/wcopyright owner may display hissoftware ontheinternet which would amount to
+display tothepublic which right isprovided .
+•The owner ofthecopyright s/wenjoys anexclusive right todistributed copies ofthework tothe
+public bysale orbytransfer ofownership orbyrental .This right todistribute inIndia flows from
+Section 14oftheCopyright Act, 1957 ,which provides theright topublication .
+•Similarly, theowner oftheS/W copyright hastheright toadaption ofhiswork byupdating,
+changing andmodifying hiss/wcopyright .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 29 ---
+➢Cyber Space, the Internet, Websites and the Nature of the Copyright
+Ontheinternet, thedigital nature perspective ofintellectual property laws isthemost important characteristics as
+compared tothetraditional ‘analog’methods ofrecording ofworks ofintellectual property -onpaper, film, oron
+magnetic tape whereas digitisation converts allwords, images, sounds, graphics andfilms into binary numbers,
+either ones orzeros .
+Awebsite creator must ensure thatheowns thecopyright inalltheaspects involved inthecreation ofwebsite for
+itsfunctioning .
+While downloading from theinternet thedefendant makes thepermanent copies ofthecopyrighted work onthe
+hard discofthecomputer andthisamounts toareproduction ofthecopyright work .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 30 ---
+➢Linking, Hyper -Linking and Framing
+The internet ortheweb was initially created forthepurpose ofenabling hypertext capabilities
+allowing onesidetolinkorhyperlink andaccess another sight .
+Inthisway theuser could make sense ofthegreat mass data contained ontheinternet .
+Aslinking orhyperlinking was used foreducation orresearch purpose, itwas both accepted and
+encouraged when internet wasaresearch network .
+Onthecommercial internet thesight owner have contended thatbefore employing alink, thewebsite
+must seek permission from thewebsite towhich itwant tolink.
+Framing isarelatively recent phenomenon ascompared tolinking .
+Byusing aspecific command initsHTML code, aframing sitelinks toanother siteanddisplays that
+sitewithin awindow orframe .
+Theframe itself iscomprised ofcontent from theframing site.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 31 ---
+➢Remedies forInfringement ofCopyright onCyberspace
+Under thecopyright Act, 1957 ,fortheinfringement ofthecopyrighted works without alicense
+granted bytheowner ofthecopyright ortheRegistrar .
+Wehave three types ofremedies laws available .
+(i) Civil remedies
+(ii) Administrative remedies
+(iii) Criminal remedies
+Civil remedies may include twocategories
+a)Preventive civil remedies
+b)Compensatory remedies
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 32 ---
+Preventive civil remedies
+Under thecopyright Act, 1957 preventive civil remedies may include interlocutory injunction andthe
+final injunction inthesuite forinfringement ofcopyright .
+Injunction isthemost important remedy against theinfringement ofcopyright under thelaw.
+Injunction means ajudicial process bywhich onewho isthreatening toinvade orhasinvade thelegal
+orequitable rights ofanother .
+Compensatory remedies
+Acompensatory remedy isalso available totheplaintiff which includes damages, account ofprofit
+anddelivery ofinfringing copies .
+Damages aregranted toaowner ofthecopyright fortheloss ordamage caused tohim bythe
+infringement ofcopyright .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 33 ---
+➢The Liabilities of an Internet Services Provider (ISP) in Cyberspace
+The liabilities ofISPs may arises inaverity oflegal areas, such ascriminal law, Torts law, Trade
+secret law,Copyright law,Trademark law,Unfair Competition law.
+Many countries have tried todefine theliability ofISOs indisseminating third party contents .
+Thefunction ofservice provides istohost content, such asweb pages ofsubscriber, over which the
+service provider exercises nocontrol .
+Itisimpossible practically tomonitor orscreen theactivities ofusers ofnetwork services .
+Forexample :Educational institutions, libraries andmuseums andservice providers, they should
+have nolegal obligations tomonitor what istransmitted, orseek facts orcircumstance indicating
+illegal activity .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 34 ---
+➢Cyberspace and the protection of patent in India
+▪The lawofpatents isvery relevant fortheinformation technology industry asitis
+inother industries .
+▪The owner ofapatent isgranted certain exclusive right toaparticular invention .
+▪The rights ofpatent owner include the right tomake, the right touse, and the
+right tosell the invention and also the obvious extensions connected with the
+rights ofinventions .
+▪Inthecomputer technology which isfast-paced, being thefirst todevelop and to
+patent aninvention which satisfies the demand inamarket can provide
+significant leverage over competitors .
+▪The patent owners can also have anagreement toletothers make use ofthe
+patented invention .
+▪Wecanseetheeffects ofIBM’s (Indian Business Machines) decision tolicense the
+operating system foritspersonal computer from acompany which has become
+famous likeMicrosoft .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 35 ---
+The term ‘patent’ refers to a grant of some privilege, property or authority made by 
+the government or the country to one or more individuals.
+The person to whom a patent is granted is called patentee. 
+In India, under the law, a patent is a –
+•Right granted by the government 
+•To exclude others
+•From engaging in activities such as making, using, importing, offering to sell or 
+selling an invention
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 36 ---
+➢Patent as a form of Intellectual Property
+Patent came on the status book as the Patents Act, 1970.
+The Indian laws have provided judicial as well as administrative protection in order 
+to protect intellectual property.
+There are two kinds of remedies or protection for infringements of IPRs.
+Civil remedies -to pay for damages and to apologise to the owner of IPRs.
+Criminal –fine or imprisonment
+For determining infringement of design patent
+The court will first decide whether the two products are of the same kind. If not, 
+there can be no comparison.
+When two products are of the same kind, then the court will further compare 
+whether the accused product is the same as the patent product.
+If both are same, then infringement of the patent is established.
+Dr. V. SOWMYA DEVI, CSE Dept.

@@ -1,0 +1,423 @@
+--- PAGE 1 ---
+Introduction to Computer Security, Internet, E -commerce and E -governance with 
+reference to Free Market Economy
+Definition, Threats to security, Government requirements, Information Protection and 
+Access Controls, Computer security efforts, Standards, Computer Security mandates 
+and legislation, Privacy considerations, International security activity.
+Conceptual Framework of E -commerce: governance, the role of Electronic Signatures 
+in E-commerce with Reference to Free Market Economy in India.
+Textbooks
+1.Debby Russell and Sr. G.T Gangemi , "Computer Security Basics (Paperback)”, 2ndEdition, O’ Reilly 
+Media, 2006. Computer Security Basics -Google Books
+2.Cyber Laws and IT Protection, Harish Chander , PHI, 2012
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 2 ---
+Introduction to computer Security
+computer security ,the protection ofcomputer systems and information from
+harm, theft, and unauthorized use.Computer hardware istypically protected by
+thesame means used toprotect other valuable orsensitive equipment .
+The security precautions related tocomputer information and access address four
+major threats :
+(1)theft ofdata ,such asthat ofmilitary secrets from government computers ;
+(2)vandalism, including thedestruction ofdata byacomputer virus ;
+(3)fraud, such asemployees atabank channeling funds into their own accounts ;
+and
+(4)invasion ofprivacy, such astheillegal accessing ofprotected personal financial
+ormedical data from alarge database .
+Continues…
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 3 ---
+The laws make it a crime to reveal personal information gathered 
+during business.
+➢Health Insurance Portability and Accountability Act (HIPAA)
+➢Family Educational Rights and Privacy Act (FERPA)
+The organizations which provide assistance w.r.to attacks over internet:
+➢Defense Advanced Research Projects Agency (DARPA)
+➢Computer Emergency Response Team (CERT)
+Information Sharing and Analysis Centers (ISACs) help in developing the 
+best practices for protecting critical infrastructures and minimizing 
+vulnerabilities.
+Continues…
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 4 ---
+Computer crime isanact performed byaknowledgeable computer user,
+sometimes called a"hacker ,"that illegally browses orsteals acompany's or
+individual's private information .Sometimes, this person orgroup ofindividuals may
+bemalicious and destroy orotherwise corrupt thecomputer ordata files.
+Examples :
+•Child pornography -Making, distributing, storing, or viewing child pornography.
+•Click fraud -Fraudulent clicks on Internet advertisements.
+•Copyright violation -Stealing or using another person's Copyrighted material 
+without permission.
+•Cracking -Breaking or deciphering codes designed to protect data.
+Ref:What isComputer Crime? (computerhope .com)Continues…
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 5 ---
+Confidentiality, Integrity, Availability (CIA)
+Computer and Network security is build on 3 -pillars, C -I-A.
+Confidentiality -preventing the disclosure of data to unauthorized parties.
+Also keep the identity of authorized parties involved in sharing and holding data 
+private and anonymous.
+Often confidentiality is compromised by cracking poorly encrypted data, Man -in-
+the-middle (MITM) attacks, disclosing sensitive data.
+Standard measures to establish confidentiality include:
+1.Data encryption
+2.Two-factor authentication
+3.Biometric verification
+4.Security tokens
+Continues…
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 6 ---
+Integrity
+Integrity refers to protecting 
+information from being modified by 
+unauthorized parties. 
+Standard measures to guarantee 
+integrity include:
+1.Cryptographic checksums
+2.Using file permissions
+3.Data backupsAvailability 
+Availability is making sure that authorized 
+parties are able to access the information 
+when needed.
+Standard measures to guarantee 
+availability include:
+1.Backing up data to external drives
+2.Implementing firewalls
+3.Having backup power supplies
+4.Data redundancy
+Continues…
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 7 ---
+Identification, Authentication, Authorization and Accountability
+These areother terms butpart ofCIAmodel
+Identification describes amethod ofensuring that auser istheentity it
+claims tobe.Identification canbeprovided with theuseofausername
+oraccount number .
+Authentication Prove you areXYZ, using multifactor authentication like
+password, biometric, passport, IDetc.
+Authorization What areyou allowed toaccess?
+Accountability (also referred asAuditing)
+Trace anaction toaUser’s Identity
+Prove Who/what agiven action was perform by(non -repudiation)
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 8 ---
+Threats to Security
+Vulnerability –weakness in a system
+Threat –possible danger to the system
+Countermeasures –techniques for protecting the system
+Vulnerabilities
+➢Physical Vulnerabilities –intruder breaks into buildings & 
+equipment/server room
+➢Natural Vulnerabilities –computers vulnerable to natural disasters (fire, 
+flood, earthquakes, power loss) and environmental threats.(Dust, humidity, 
+uneven temp.)
+➢Hardware and software Vulnerabilities
+➢Media Vulnerabilities –Damaged backup media
+➢Communication Vulnerabilities -interception
+➢Human Vulnerabilities –poorly trained administrator
+Continues…
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 9 ---
+Threats
+➢Natural and physical threats –threats related to fire, flood, power 
+failures and other disasters. 
+Can’t prevent such disasters but can be detected quickly using fire 
+alarms, sensors etc. 
+➢Unintentional threats –ignorance creates dangers
+More information is compromised, corrupted or lost through ignorance 
+➢Intentional threats –outsiders and insiders
+Countermeasures
+➢Computer security
+➢Communication security
+➢Physical security
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 10 ---
+Government requirements
+The computer vendors who want to sell lot of work stations to govt., 
+they are forced to build security into those products.
+-Most govt. agencies specify security requirements along with the 
+operational requirements.
+-The seller need to use encryption to protect stored and transmitted 
+data.
+-Information protection : govt. agencies need to protect sensitive info. 
+From theft, modification, data breaches and need to ensure integrity of 
+the information.
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 11 ---
+Information Protection and Access Controls
+Access control isasecurity technique that regulates who orwhat can view oruse resources ina
+computing environment .Itisafundamental concept insecurity that minimizes risk tothebusiness
+ororganization .
+There aretwo types ofaccess control :physical and logical .Physical access control limits access to
+campuses, buildings, rooms and physical ITassets .Logical access control limits connections to
+computer networks, system files and data .
+Physical access control can belimited byaccess card readers, auditing and reports totrack
+employee access torestricted business locations and proprietary areas, such asdata centers .Some
+ofthese systems incorporate access control panels torestrict entry torooms and buildings, aswell
+asalarms and lockdown capabilities, toprevent unauthorized access oroperations .
+Logical access control systems perform identification authentication and authorization ofusers and
+entities byevaluating required login credentials that can include passwords, personal identification
+numbers, biometric scans, security tokens or other authentication factors .Multifactor
+authentication (MFA ),which requires two ormore authentication factors, isoften animportant part
+ofalayered defense toprotect access control systems .
+Ref:What isAccess Control? (techtarget .com)
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 12 ---
+Access control methods: 
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 13 ---
+Computer security efforts
+Inearly 1950 s,TEMPEST (theprocess ofprotecting sensitive equipment
+from emanating electromagnetic radiation (EMR) that may carry
+classified information )
+-standards that strive to prevent outright data theft.
+-1960s –Department of Defense , National Institute of standers and technology or 
+NIST, national security agency first initiated public awareness of security.
+-1967, DoD studied threats to computer systems and information
+-Later Defense Advanced Research Projects Agency (DARPA) worked on identifying 
+vulnerabilities and threats and introduced methods to safeguard systems and 
+controlled access to defense computer systems, networks and information.
+-1970, Security controls for computer systems –a document is published, which is 
+landmark in the history of computer security
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 14 ---
+Tiger Teams –In 1970s, first time emerged on computer scene.
+These teams where govt. and industry sponsored teams of crackers.
+They attempt to break down systems, security patches, flaws.
+-Sponsored by DoD
+-Penetration testing
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 15 ---
+Standards for secure Systems
+National Bureau of standards (NBS) , also known as the National 
+Institute of standards and Technology (NIST), responsible for the 
+development of all kinds of standards. 
+-NBS sponsored conference on computer security in collaboration with 
+ACM (Association of Computing Machinery).
+-Required attention in three areas w.r.to:
+-Policy : What security rules should be enforced for sensitive info?
+-Mechanisms : What h/w and s/w mechanisms are needed to enforce 
+the policy?
+-Assurance : What need to be done for mechanisms to support the 
+policy even when the system is subjected to threats?
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 16 ---
+National Computer Security Center (NCSC)
+The Center was founded with thefollowing goals :
+•Encourage thewidespread availability oftrusted computer systems
+•Evaluate the technical protection capabilities ofindustry -and government -
+developed systems
+•Provide technical support ofgovernment and industry groups engaged in
+computer security research and development
+•Develop technical criteria fortheevaluation ofcomputer systems
+•Evaluate commercial systems
+•Conduct and sponsor research incomputer and network security technology
+•Develop and provide access toverification and analysis tools used todevelop and
+test secure computer systems
+•Conduct training inareas ofcomputer security
+•Disseminate computer security information toother branches ofthe federal
+government and toindustry
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 17 ---
+Computer Security mandates and legislation
+Laws typical aim is to protect information.
+-protection of classified or sensitive information
+Legislation mandating computer security practices byfederal agencies and con-tractors .
+The idea ofthis legislation isthat organizations that process classified orsensitive
+unclassified government information must becareful toprotect that information from
+unauthorized access .
+-computer crime
+Legislation defining computer crime asanoffense and extending other regulations tocover
+thefts and other abuses carried outbycomputers and other new techniques .Inaddition to
+federal policies, virtually allU.S.states have enacted their own legislation prohibiting
+computer crime and abuse .
+-Privacy
+Legislation protecting theprivacy ofinformation maintained about individuals (e.g.,health
+and financial records) .Another consideration forcomputer privacy isthe practice of
+merging records from multiple, seemingly benign databases into profiles that may reveal
+devastating amounts ofinformation about anindividual .
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 18 ---
+Privacy Considerations
+The ability tocollect and manage information doesn't necessarily confer theright
+tosave, analyze, and publicize that information, butseveral recent attacks suggest
+that this isoccurring .
+Inone high profile case, anairline was approached and asked toturn over the
+records ofmillions ofpassengers who had purchased tickets fortrips ontheairline .
+Apparently the purpose was tocombine the flight plans ofcustomers with other
+data available commercially, such asreports from credit bureaus, and determine
+which fliers may fittheprofile ofaterrorist .
+This isfeasible only ifyou can rapidly combine information from several different
+databases, and that, intheview ofmany, represents amassive invasion ofprivacy .
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 19 ---
+International security activity
+International security ,also called global security isaterm which refers tothemeasures
+taken bystates and international organizations ,such asthe United Nations ,European
+Union ,and others, toensure mutual survival and safety .These measures include military
+action and diplomatic agreements such astreaties and conventions .International
+and national security areinvariably linked .International security isnational security orstate
+security intheglobal arena .
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 20 ---
+Chapter 2: Conceptual Framework of E -commerce: governance
+➢Meaning of E -commerce
+Traditional method –contracts specifically written onpaper documents .
+The conduct ofbusiness andbusiness transactions ofanykind between the
+parties ontheinternet andcyberspace iscalled e-commerce .
+While starting business ontheinternet orcyber space, thefollowing
+points need tobefollowed :
+•Market research
+•Financial commitment –legal agreement
+•Should beaware ofproblems inthebusiness andtype oftransactions
+•Should include certain terms &conditions inthecontract which are
+profitable andfavorable .
+•New business canbestarted with single owner rather than partnership .
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 21 ---
+➢Growth and development of E -commerce
+E-commerce have become popular especially inthecorporate sectors duetoscope
+ofpublicity .
+--During COVID -19andworldwide lockdown, e-commerce acted likeabackbone
+forbusiness andmarket industry .
+--notonly purchase goods butalsoavail services .
+--Jurisdiction forinternet based disputes .
+➢Definitions ofE-commerce
+-The World Trade Organization defined as“e-commerce isthe production,
+distribution, marketing, sales ordelivery ofgoods andservices byelectronic means”
+-Theconsumer Protection Act, 2019 states, “buying orselling ofgoods orservices
+including digital products over digital orelectronic network”
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 22 ---
+➢Various Modes of E -commerce
+E-commerce operates through four modes:
+•Advertising, sale, lease or license of tangible products
+Ex: Books, machinery, buildings, land, vehicles
+•Advertising, sale, lease or license of intangible products
+Ex: IPR, copyrights, goodwill, patent, e -newspaper, online storage.
+•Advertising, sale, lease or license of services
+Ex: online ticket booking, online games, online banking
+•Advertising, sale, lease or license of tangible products over the internet
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 23 ---
+➢Mechanism involved in the operation of Internet
+All communicating devices are connected to the internet with there unique IP numbers.
+Protocols like TCP/IP is used for data transmission.
+Data is sent in the form of the packets, by using shortest path to destination.
+For better security –packets are encrypted.
+➢Types of players in E -commerce
+•Network provider
+•User
+•Website
+•Payment Providers
+•Payment system provider
+•Software Architects
+•Advertiser
+•Content Provider
+•Back End systems
+--other than these search engines like google, yahoo etc.
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 24 ---
+➢Salient features ofthe new consumer protection Act, 2019 :Law onE-
+Commerce andconsumer protection
+Some changes aretaken place after introduction ofonline ore-commerce inthe
+consumer protection act,1986 .
+Following arethefeatures ofConsumer Protection Act, 2019 :
+1.Def.ofConsumer –person who “buys anygoods” and“hires oravails ofany
+service”, butnotaperson who obtain goods forresale orcommercial purpose .
+2.Def.ofe-commerce –inconsumer protection act,1986 was silent ononline
+commercial transactions .ITAct, 2000 alsonotprovided adequate framework .
+Butconsumer protection act,2019 defined e-commerce as“buying orselling of
+goods orservices including digital products over adigital orelectronic network”
+3. Specification of ‘Rights of Consumers’ –The Act expressed rights of consumers  
+under Section 2(9) of the Consumer Protection Act, 2019.
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 25 ---
+4. Establishment of the Central Consumer Protection Authority (CCPA) : 
+Sections 10 -27 of CPA, 2019
+5. Key Concept of ‘Product Liability’ : Under Section 2(34) of CPA, 2019 –responsibility 
+of a product seller or manufacturer or service.
+6. Def. of ‘Electronic Service Provider’ : Under Section 2(17) of CPA, 2019 –the person 
+provides technologies to enable a product seller to engage in advertise/ sell goods/services  
+to a consumer include online marketplace or online auction sites.
+7. Def. of ‘Misleading Advertisement’: An advertisement which falsely describes the 
+product or service.
+8. Establishment of Consumer Dispute Redressal Commission: Sections 28 –73 
+provides setting up of a Consumer Dispute Redressal Commission (CDRC).
+9. Special Provisions on offences and penalties Under CPA 2019: Sections 88 –93 
+regarding misleading advertisements, -fines with imprisonment.
+10. Introduction of Mediation as an alternate Dispute resolution mechanism: : Under 
+Section 2(25) of CPA 2019 defined termed mediation –the process by which a mediator 
+mediates the consumer disputes.
+Sections 74 -81 –resolve the consumer dispute faster without approaching commissions.
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 26 ---
+➢Web Development and Hosting Agreements
+➢Web Hosting
+➢The Problem of Internet Jurisdiction
+➢Illustrative Cases about cyberspace Jurisdiction
+➢Types of websites 
+Passive and interactive sites: These sites provide information in a read only 
+format.
+Interactive sites: These encourages the browser to enter information identifying the 
+browser and provide back ground on the browser’s interest or buying habits.
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 27 ---
+Chapter 3: The Role of Electronic Signatures in E -commerce with 
+Reference to Free Market Economy in India
+➢Introduction
+➢Basic Laws of Digital and Electronic signature in India
+➢Authentication of digital Signatures and electronic records
+➢Authentication of electronic signatures and electronic records
+➢UNCITRAL(United Nations Commission on International Trade 
+Law) : Model law on electronic commerce, 1996
+➢UNCITRAL: Draft rules of November, 1998
+➢Securing electronic transactions cryptography and securing electronic 
+transactions
+➢The concept of Hash function
+➢Utility of Digital signature’s verification
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE
+
+--- PAGE 28 ---
+➢Certification, certifying authorities and the status of electronic signature 
+under the Indian Law
+➢The appointment of controller and other officers and their functions
+➢Authentication and verification of electronic/digital signatures
+➢The cost and benefits of implementing electronic/digital signatures in E -
+commerce in India
+➢Security privacy of Electronic/Digital signatures
+➢Private key Escrow and key recovery systems
+➢Obligation of a certifying authority and certificate management
+➢Security threats to cyberspace and E -commerce
+➢International efforts to enact laws relating to electronic/digital signatures
+➢Efforts in the US
+➢Guidelines under the Singapore Electronic transaction Act, 1998
+➢Different approaches of digital signatures
+Dr. V. SOWMYA DEVI, Associate Professor, Dept. of CSE

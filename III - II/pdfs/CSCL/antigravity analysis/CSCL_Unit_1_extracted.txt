@@ -1,0 +1,571 @@
+--- PAGE 1 ---
+B. Tech. III Year II semester
+Computer Science and Engineering
+CYBER SECURITY AND CYBER LAWS
+
+--- PAGE 2 ---
+Introduction tocyber Security, cryptography, Types ofAttacks,
+Secrete Key Cryptography
+Introduction :Cyber attacks, Defense Strategies and Techniques
+Mathematical background forCryptography :Modulo arithmetic, The
+greatest common divisor, Useful Algebraic Structures, Chinese
+Remainder Theorem Basics ofCryptography :Secret versus Public key
+Cryptography, Types ofattacks, Elementary substitution Ciphers,
+Elementary Transposition Ciphers, Other Cipher Properties Secrete Key
+Cryptography :Product Ciphers, DES Construction, Modes ofOperation,
+MAC and other Applications, Attacks, Linear Crypt analysis .
+Dr. V. SOWMYA DEVI, CSE Dept.Textbook
+1. Network security and Cryptography by Bernard Menezes CENGAGE Learning Publications, 2010.
+
+--- PAGE 3 ---
+Introduction
+•Computer Security is all about studying cyber attacks with a view to 
+defending against them.
+•Cyber Attack -an attempt by hackers to damage or destroy a 
+computer network or system.
+•Motives –“What are the main goals of an attacker”
+-Financial Gain
+-Recognition
+-Revenge/fun
+-Political motivation
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 4 ---
+Cyber Attacks include
+➢Company insiders 
+➢Cyber terrorists –religious or political causes
+➢Theft of sensitive information -new products/military plans
+➢Political espionage –spying to get govt./national intelligence 
+sensitive info. 
+➢Disruption of service –unavailable/inaccessible
+➢Illegal access to or use of resources –free access/service (talk time, 
+articles, journals, online products)
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 5 ---
+5Other Definitions ofCyber Security
+•Cyber security isthebody oftechnologies, processes, and practices designed to 
+protect networks, computers, programs and data from attack, damage or 
+unauthorized access.
+•The term cyber security refers totechniques and practices designed toprotect
+digital data -stored, transmitted or used on aninformation system.
+OR
+Cyber security is the protection of Internet -connected systems, including hardware, 
+software, and data from cyber attacks.
+Itismade upof two words one iscyber and other is security.
+•Cyber is related to the technology which contains systems, network and 
+programs ordata.
+•Whereas security related totheprotection which includes systems security,
+network security and application and information security.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 6 ---
+Why iscyber security important?
+Listed below are the reasons why cyber security is so important in what’s become a 
+predominant digital world:
+•Cyber attacks canbeextremely expensive forbusinesses to endure.
+•Inaddition tofinancial damage suffered bythebusiness, adata breach canalso 
+inflict untold reputational damage.
+•Cyber -attacks these days are becoming progressively destructive. 
+Cybercriminals areusing more sophisticated ways toinitiate cyber attacks.
+•Regulations such asGDPR areforcing organizations into taking better care ofthe 
+personal data they hold.9 Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 7 ---
+Other Security domains and 
+Cybersecurity
+The term applies inavariety ofcontexts, from business tomobile computing, and 
+canbedivided into afewcommon categories.
+Network security isthepractice ofsecuring acomputer network from intruders,
+whether targeted attackers oropportunistic malware .
+Application security focuses onkeeping software and devices free ofthreats .A
+compromised application could provide access tothedata itsdesigned toprotect .
+Successful security begins inthe design stage, well before aprogram ordevice is
+deployed .
+Information security protects theintegrity and privacy ofdata, both instorage and
+intransit .
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 8 ---
+Common Attacks
+1. Attacks used to retrieve personal information from an individual.
+-Phishing attack –through emails, SMS, weblinks
+-Pharming attack -Pharming is a type of social engineering cyberattack in 
+which criminals redirect internet users trying to reach a specific website to 
+a different, fake site
+-Pharming is much more effective than phishing because it doesn't require 
+the user to click a link.
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 9 ---
+2. Attacks used for leakage of information
+Skimming attack -Skimming isanactofcopying thecardholder’s personal
+payment information .Criminals employ different strategies for this
+purpose, such asphotocopying receipts ormore advanced methods, such
+asinstalling asmall electronic device called askimmer, mostly inside ATM
+orPOS terminals, tostore hundreds ofvictims' card numbers andPINs .
+Side Channel attacks -An attack enabled by leakage of information from a 
+physical cryptosystem
+Eavesdropping or snooping –communication links
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 10 ---
+3. Intruding into a computer system
+➢Password guessing attacks –special case of dictionary attacks
+➢Identity theft –attacker is to impersonate the victim
+4. Interruption/disruption of computing services
+➢Denial of Service(DoS) –making computing power, memory , bandwidth unavailable
+➢Slowing down web server
+➢Website defacement (modify the content of govt. website)
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 11 ---
+5. Malware
+➢Virus –It is a program that attempts to damage a computer system and replicates 
+itself to other computer systems. It requires a host to replicate.
+➢Worm -Aworm isaself-replicating program that can bedesigned todoany
+number ofthings, such asdelete files orsend documents viae-mail .Aworm can
+negatively impact network traffic justintheprocess ofreplicating itself .
+Viruses &worms use various spreading techniques like email, internet messages,
+webpages, Bluetooth and MMS
+➢Trojan -ATrojan horse isamalicious program that isdisguised(masquerades) as
+legitimate software .The compromise ofauser account could lead tothe
+compromise oftheentire environment .Itcannot replicate .
+➢Logic Bomb -ALogic Bomb ismalware that liesdormant until triggered .Alogic
+bomb isaspecific example ofanasynchronous attack .Atrigger activity may bea
+specific date and time, thelaunching ofaspecific program, ortheprocessing ofa
+specific type ofactivity .Itdoes notselfreplicate .
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 12 ---
+➢Spyware –installed on a machine, can be used to monitor user 
+activity. 
+➢Keylogger –used to observe key strokes, passwords
+➢Ransomware -a type of malicious software designed to block access 
+to a computer system until a sum of money is paid.
+➢Rootkit -a set of software tools that enable an unauthorized user to 
+gain control of a computer system without being detected.
+If the elements are small, we call it "fine -grained," and if the elements 
+are large, we call it "coarse -grained."
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 13 ---
+Vulnerabilities –is a weakness in a procedure, protocol, h/w or s/w in a 
+organization, that has a potential to cause damage.
+Human Vulnerabilities –induced by human behaviour.
+Ex: user clicks on a link or email message (phishing attack, cross -site 
+scripting attack)
+Protocol Vulnerabilities –attacks on network protocols ( TCP , IP , ARP 
+etc.)
+Ex: Attack on ARP protocol like to sniff passwords from the LAN. 
+(Pharming Attack, hijacking attacks, man -in-the-middle -attack)
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 14 ---
+Software Vulnerabilities –related to application s/w
+1. Executing malicious worm code in Program -Buffer overflow
+2. Web server related –cross site scripting vulnerability
+-SQL injection vulnerability
+Configuration Vulnerabilities –related to configuration settings on 
+newly installed applications, files etc.
+Ex: Privilege escalation attack
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 15 ---
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 16 ---
+Defense Strategies and Techniques
+1.Access Control –Authentication and Authorization
+2.Data Protection
+3.Prevention and Detection
+4.Response, Recovery and Forensics
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 17 ---
+1. Access Control –Authentication and Authorization
+Access control is a method of limiting access to a system or to physical 
+or virtual resources
+Access control systems perform identification, authentication, and 
+authorization of users .
+Authentication -Proof of identity
+-password/pin
+-biometric
+-card/key
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 18 ---
+After successful authentication, the user may need several resources 
+like files. Then system performs authorization.
+Authorization isaprocess bywhich aserver determines ifthe
+client haspermission tousearesource oraccess afile.
+2.Data Protection
+Means assuring Data confidentiality, Data Integrity
+--cryptographic techniques used forencryption &decryption .
+Methods –integrity check techniques, cryptographic checksum,
+symmetric/asymmetric
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 19 ---
+3. Prevention and Detection
+-Access control and message encryption are preventive strategies.
+-Code testing is used to detect vulnerabilities.
+-black box testing, white box testing  --program
+-intrusion preventive techniques –checks for worm signature or 
+pattern or behaviour
+-attack on packets –methods used are continuous monitoring, 
+anomalous behaviour.
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 20 ---
+4. Response, Recovery and Forensics
+Once the attack or infection has been detected, response measures 
+need to be taken.
+Like shutting down the system.
+During worm detection, infected parts of system need to be 
+quarantined, required patches must be applied.
+Cyber forensics
+Cyber forensics is a process of extracting data as proof for a crime
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 21 ---
+Mathematical background for Cryptography
+Modulo Arithmetic
+Let d be an integer and let n be a positive integer. Let q and r be the quotient and 
+remainder obtained from dividing d by n. The relationship between d, n, q, and r is 
+d = n * q + r, 0 ≤ r < n  --(1)
+Note that r is a non -negative integer less than n. d and n are the dividend and the 
+divisor, respectively. We say "d is equal to r modulo n" if the remainder obtained 
+from dividing d by n is r. This is expressed as 
+r ≡ d (mod n)       --(2)
+For a given value of n and r, there are an infinite number of (d, q) pairs that satisfy 
+Eq. 1. 
+Example: Let n = 10 and r = 3. Then 13, 23, 33, etc. all satisfy Eq. (1) with quotients 
+1, 2, 3, etc. In fact, each element of the set below satisfies Eq. (2).
+.. -37, -27, -17, -7, 3, 13, 23, 33, 43, . . .} 
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 22 ---
+Properties ofmodular arithmetic operations
+•[(amod n)+(bmod n)]mod n=(a+b)mod n
+•[(amod n)-(bmod n)]mod n=(a-b)mod n
+•[(amod n)x(bmod n)]mod n=(axb)mod n
+Where doweusethese properties?
+Incryptography, weoften have toperform computations such as
+multiplying alarge number ofterms, each term itself being a
+very large number .
+Forexample, wemay have tomultiply 50integers, each about
+1000 digits long .
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 23 ---
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 24 ---
+Ref: Modular Arithmetic (Part 1) -YouTube
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 25 ---
+The Greatest Common Divisor 
+The greatest common divisor (GCD) refers tothe greatest positive
+integer that isacommon divisor foragiven setofpositive integers .
+•For asetofpositive integers (a,b),the greatest common divisor is
+defined asthegreatest positive number which isacommon factor of
+both the positive integers (a,b).GCD ofany two numbers isnever
+negative or0asthe least positive integer common toany two
+numbers isalways 1.Ifgcd(b,c)=1,wesaythat band carerelative
+prime orco-prime .Aninteger isprime ifitisco-prime with all
+positive integers less than it.
+•There aretwo ways todetermine thegreatest common divisor oftwo
+numbers :
+•By finding the common divisors
+•By Euclid's algorithm
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 26 ---
+Euclid's Algorithm for Greatest Common Divisor
+As per Euclid's algorithm for the greatest common divisor, the GCD of 
+two positive integers (a, b) can be calculated as:
+•If a = 0, then GCD (a, b) = b as GCD (0, b) = b.
+•If b = 0, then GCD (a, b) = a as GCD (a, 0) = a.
+If both a≠0 and b≠0, we write 'a' in quotient remainder form (a = b×q+ 
+r) where q is the quotient and r is the remainder , and a>b.
+Find the GCD (b, r) as GCD (b, r) = GCD (a, b)
+We repeat this process until we get the remainder as 0.
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 27 ---
+Example: Find the GCD of 12 and 10 using Euclid's Algorithm. 
+Solution: The GCD of 12 and 10 can be found using the below steps:
+a = 12 and b = 10
+a≠0 and b≠0
+In quotient remainder form we can write 12 = 10 ×1 + 2
+Thus, GCD (10, 2) is to be found, as GCD(12, 10) = GCD (10, 2)
+Now, a = 10 and b = 2
+a≠0 and b≠0
+In quotient remainder form we can write 10 = 2 ×5 + 0
+Thus, GCD (2,0) is to be found, as GCD(10, 2) = GCD (2, 0)
+Now, a = 2 and b = 0
+a≠0 and b=0
+Thus, GCD (2,0) = 2
+GCD (12, 10) = GCD (10, 2) = GCD (2, 0) = 2
+Thus, GCD of 12 and 10 is 2.
+Euclid's algorithm is very useful to find GCD of larger numbers, as in this we can 
+easily break down numbers into smaller numbers to find the greatest common 
+divisor.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 28 ---
+Useful Algebraic Structures
+Groups, rings, and fields are the important elements of a branch 
+of mathematics called as abstract algebra, or modern algebra.
+Group
+•Agroup (G)isindicated by{G,*}.Itisagroup ofelements with
+abinary operation ′*′that satisfies four properties .The
+properties ofGroup areasfollows−
+•Closure −Ifaand bareelements ofG,therefore c=a*bis
+also anelement ofsetG.This can define that theresult of
+using theoperations onanytwo elements inthesetisanother
+element intheset.
+REF: https://www.youtube.com/watch?v=vfyUU_prh9s
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 29 ---
+•Associativity −Ifa,b,and careelement ofG,therefore
+(a*b)*c=a*(b*c),means itdoes notsubstance inwhich
+order itcanusetheoperations onhigher than two elements .
+•Identity −ForallainG,there occur anelement einGincluding
+I*a=a*I=a.
+•Inverse−Foreach ainG,there occur anelement a′known as
+theinverse ofasuch that a*a′=a′*a=e.
+•Agroup isanabelian group ifitsatisfies thefollowing four
+properties more oneadditional property ofcommutativity .
+•Commutativity −Forallaand binG,wehave a*b=b*a.
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 30 ---
+•Ring−Aring Risindicated by{R,+,x}.Itisasetofelements
+with two binary operations, known as addition and
+multiplication including foralla,b,cinRthefollowing axioms
+arekept−
+•Risanabelian group regarding addition that isRsatisfies
+properties A1through A5.Inthemethod ofadditive group, it
+indicates theidentity element as0and theinverse ofaas−a.
+•(M1):Closure under multiplication −Ifaand bbelong toR,
+then abisalso inR.
+•(M2):Associativity ofMultiplication −a(bc)=(ab)c foralla,b,c
+inR.
+•(M3):Distributive Laws−
+•a(b+c)=ab +acforalla,b,cinR
+•(a+b)c=ac+bc foralla,b,cinR
+--Continues
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 31 ---
+•(M4):Commutative ofMultiplication −ab=baforalla,binR.
+•(M5):Multiplicative identity −There isanelement 1inR
+including a1=1aforallainR.
+•(M6):Nozero divisors −Ifa,binRand ab=0,therefore a=0
+orb=0.
+•Field−Afield Fisindicated by{F,+,x}.Itisasetofelements
+with two binary operations known as addition and
+multiplication, including foralla,b,cinFthefollowing axioms
+arekept−
+•F1isaninteger domain that isFsatisfies axioms A1through
+A5and M1through M6.
+•(M7):Multiplication inverse−Foreach ainF,except 0,there is
+anelement a−1inFsuch that aa−1=(a−1)a=1.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 32 ---
+Ref : The Chinese Remainder Theorem (Solved Example 1) –YouTube
+2. Chinese remainder theorem and its applications (csusb.edu)
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 33 ---
+Basics of Cryptography
+Recollect the terms
+-cryptography
+-provide message –confidentiality, integrity, authentication and digital 
+signatures
+-plaintext, ciphertext, encryption, decryption, encryption key, decryption 
+key, encryption function
+-Kerckhoff’s Pinciple –The secrecy should be in the key used for 
+decryption not in encryption or decryption algorithm.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 34 ---
+•Secret versus Public key Cryptography
+Key Ituses asingle shared key (secret key) toencrypt
+and decrypt themessage .It uses two different keys for encryption and 
+decryption.
+Size The size ofciphertext insymmetric encryption
+could bethesame orsmaller than theplain text.The size ofciphertext inasymmetric encryption could
+bethesame orlarger than theplain text.
+Efficiency Itisefficient asthis technique isrecommended for
+large amounts oftext.Itisinefficient asthis technique isused only forshort
+messages .
+Speed The encryption process ofsymmetric encryption is
+faster asituses asingle key forencryption and
+decryption .The encryption process inasymmetric encryption is
+slower asituses two different keys ;both keys are
+related toeach other through the complicated
+mathematical process .
+Purpose Symmetric encryption ismainly used totransmit
+bulk data .Itismainly used insmaller transactions .Itisused for
+establishing asecure connection channel before
+transferring theactual data .
+Security Itisless secured asthere isauseofasingle keyfor
+encryption .Itissafer asthere are two keys used forencryption
+and decryption .
+Algorithms The algorithms used insymmetric encryption are
+3DES, AES, DES, and RC4.RSA, DSA, Diffie -Hellman, ECC, Gamal,
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 35 ---
+Types of Attacks
+Cryptographic algorithm is secure if a cryptanalyst is unable to 
+a)Obtain the corresponding plaintext from a given ciphertext
+b)Deduce the secret key or private key
+-Known cipher text
+-known plaintext
+-chosen plaintext
+-brute force attack
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 36 ---
+Elementary substitution Ciphers
+1.Caeser cipher –each letter is substituted for another unique letter
+2.Monoalphabetic Ciphers -The “cipher” linecanbeanypermutation
+ofthe26alphabetic characters .This would seem toeliminate brute -
+force techniques for cryptanalysis .Asingle cipher alphabet
+(mapping from plain alphabet tocipher alphabet) isused per
+message .English language -Nature ofplain textisknown .
+3.Polyalphabetic cipher –thecipher text correspond toaparticular
+character intheplaintext isnotfixed .
+-Vigenere Cipher
+-TheHillCipher
+Ref-Vigenere Cipher–javatpoint
+HillCipher (Encryption) -YouTube
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 37 ---
+Elementary Transposition Ciphers
+-means shuffling, rearranges or permutes the bits in a block of plain 
+text.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+
+--- PAGE 38 ---
+Parameters Block Cipher Stream Cipher
+Definition Block Cipher isthe kind ofencryption that
+converts plaintext by taking each block
+individually .Stream cipher isthe kind ofencryption that converts
+plaintext bytaking one byte oftheplaintext atatime .
+Principle Ituses both diffusion and confusion principles
+fortheconversion (used later inencryption) .Only theconfusion principle isused byStream Cipher
+fortheconversion .
+Decryption In Block cipher, reverse encryption or
+decryption ismore difficult than stream cipher
+since more bits arecombined tobeencrypted
+inthis scenario .Inastream cipher, XOR isused forencryption that can
+quickly converted back toplain text.
+Implementation Feistel Cipher isthe most popular block cipher
+implementation .Vernam Cipher isthemain implementation ofStream
+Cipher .
+Reversibility Itisdifficult toreverse encrypted text. Ituses XOR encryption, which iseasily reversed tothe
+plain text.
+Algorithm modes
+usedECB (Electronic Code Book) CBC (Cipher Block
+Chaining)CFB (Cipher Feedback)
+OFB (Output Feedback)
+Complexity Simple design Complex comparatively
+Noofbitsused 64Bits ormore 8Bits2. Block Ciphers and stream ciphers
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 39 ---
+Cipher Properties: 
+1. Confusion and diffusion
+Confusion -the technique assures that the ciphertext has no 
+information about the plaintext
+diffusion -the output bits must be challengingly dependent on the 
+input bits so that if the plaintext is modified by only one bit, the 
+ciphertext must change in an many bits.
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 40 ---
+Key Cryptography: Product Ciphers
+-Cipher which use permutation(P -box) and substitution (S -box) boxes
+DES Construction : symmetric key 
+Fiestel structure:
+•initial permutation
+•16 rounds of a given function
+•a 32-bit left right swap
+•a final permutationRound function
+•Expansion
+•XoR with a round 
+Key
+•Substitution
+•Permutation
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 41 ---
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 42 ---
+DES
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+
+--- PAGE 43 ---
+DES Round Structure
+•uses two 32 -bit L & R halves
+•as for any Feistel cipher can describe as:
+Li= Ri–1
+Ri= Li–1F(Ri–1, Ki)
+•F takes 32 -bit R half and 48 -bit subkey:
+•expands R to 48 -bits using perm E
+•adds to subkey using XOR
+•passes through 8 S -boxes to get 32 -bit result
+•finally permutes using 32 -bit perm P
+
+--- PAGE 44 ---
+Modes of Operation
+In 1980 the first four modes of operation was developed for DES (which 
+also can be used with AES):
+•The electronic codebook (ECB) mode
+•The cipher block chaining (CBC) mode
+•The cipher feedback (CFB) mode
+•The output feedback (OFB) mode
+Ref : Block cipher mode of operation -Wikipedia
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 45 ---
+Message Authentication Code:
+Dr. V. SOWMYA DEVI, CSE Dept.
+
+--- PAGE 46 ---
+Linear Crypt analysis
+Linear cryptanalysis isaknown plaintext attack, inwhich theattacker studies
+probabilistic linear relations referred toaslinear approximations among parity
+bitsoftheplaintext, theCiphertext andthehidden key.
+Step1:Identifying Linear relationships
+Step2:Using known Plaintext -Ciphertext pairs
+Ref:Differential and Linear Cryptanalysis -GeeksforGeeks
+Dr. V. SOWMYA DEVI, CSE Dept.
