@@ -1,0 +1,2 @@
+create a responsive personal portfolio website using HTML5 and css3.
+The website should include sections for your profile,skills,experience,projects and contact information. Use tailwind css to style the website and ensure it is responsive across different screen sizes

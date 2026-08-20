@@ -1,0 +1,118 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the header */
+header {
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main content */
+main {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the hero section */
+#hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#heroTitle {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#heroDescription {
+    font-size: 1.2em;
+}
+
+/* Styling for the features section */
+#features {
+    margin-bottom: 20px;
+}
+
+#featureList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+}
+
+/* Styling for the contact form */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    margin-top: 10px;
+}
+
+#contactForm input, 
+#contactForm textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: darkred;
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablets and larger devices */
+@media (min-width: 768px) {
+    #featureList {
+        flex-direction: row;
+    }
+}
+
+/* For desktops and larger devices */
+@media (min-width: 1024px) {
+    #hero {
+        text-align: left;
+    }
+
+    #heroTitle {
+        font-size: 2.5em;
+    }
+
+    #heroDescription {
+        font-size: 1.5em;
+    }
+}

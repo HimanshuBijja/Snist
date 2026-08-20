@@ -1,0 +1,32 @@
+1.node -v
+2.npm -v
+3.npm init -y
+4.npm install -D tailwindcss@3.1.0 postcss autoprefixer
+5.  npx tailwindcss init 
+     in tailwind.config.js  in content 
+       ["./src/**/*.{html,js}"],
+6. create folder src ,in src create a file input.css
+       @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+7. create index.html in src
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="output.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="text-6xl font-bold underline">
+        welcome to SNIST
+        </div>
+</body>
+</html>
+
+8.npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+    

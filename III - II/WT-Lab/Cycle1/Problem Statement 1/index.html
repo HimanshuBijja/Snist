@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-gray-800 text-white p-4">
+        <h1 class="text-center text-4xl font-bold">My Portfolio</h1>
+    </header>
+    
+    <main class="container mx-auto p-4">
+        <!-- Profile Section -->
+        <section id="profile" class="mt-4">
+            <h2 class="text-3xl font-bold mb-4">Profile</h2>
+            <div class="bg-white p-6 rounded-lg">
+                <p>Hello Guys! My Name is Vijay,  I'm a web developer with a passion for creating beautiful and functional websites. I love learning new technologies and improving my skills.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mt-8">
+            <h2 class="text-3xl font-bold mb-4">Skills</h2>
+            <div class="bg-white p-6 rounded-lg grid gap-4 md:grid-cols-3 lg:grid-cols-4">
+                <div class="bg-gray-200 p-4 rounded-lg">HTML5</div>
+                <div class="bg-gray-200 p-4 rounded-lg">CSS3</div>
+                <div class="bg-gray-200 p-4 rounded-lg">JavaScript</div>
+                <div class="bg-gray-200 p-4 rounded-lg">React</div>
+                <div class="bg-gray-200 p-4 rounded-lg">Tailwind CSS</div>
+                <div class="bg-gray-200 p-4 rounded-lg">Node.js</div>
+                <div class="bg-gray-200 p-4 rounded-lg">Express</div>
+                <div class="bg-gray-200 p-4 rounded-lg">MongoDB</div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mt-8">
+            <h2 class="text-3xl font-bold mb-4">Experience</h2>
+            <div class="bg-white p-6 rounded-lg ">
+                <h3 class="text-2xl font-semibold">Web Developer</h3>
+                <p class="mt-2">FOREVER</p>
+                <ul class="list-disc list-inside  mt-2">
+                    <li>Developed and maintained web applications using React and Node.js.</li>
+                    <li>Collaborated with designers to create user-friendly interfaces.</li>
+                    <li>Implemented responsive design to ensure optimal performance across devices.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="my-8">
+            <h2 class="text-3xl font-bold mb-4">Projects</h2>
+            <div class="bg-white p-6 rounded-lg grid gap-4 md:grid-cols-4 ">
+                <div class="bg-gray-200 p-4 rounded-lg">
+                    <h3 class="text-xl font-semibold">Project One</h3>
+                    <p class="mt-2">Description of the project goes here.</p>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg">
+                    <h3 class="text-xl font-semibold">Project Two</h3>
+                    <p class="mt-2">Description of the project goes here.</p>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg">
+                  <h3 class="text-xl font-semibold">Project Three</h3>
+                  <p class="mt-2">Description of the project goes here.</p>
+              </div>
+              <div class="bg-gray-200 p-4 rounded-lg">
+                <h3 class="text-xl font-semibold">Project Four</h3>
+                <p class="mt-2">Description of the project goes here.</p>
+            </div>
+            <div class="bg-gray-200 p-4 rounded-lg">
+              <h3 class="text-xl font-semibold">Project Five</h3>
+              <p class="mt-2">Description of the project goes here.</p>
+          </div>
+          <div class="bg-gray-200 p-4 rounded-lg">
+              <h3 class="text-xl font-semibold">Project Six</h3>
+              <p class="mt-2">Description of the project goes here.</p>
+          </div>
+          <div class="bg-gray-200 p-4 rounded-lg">
+            <h3 class="text-xl font-semibold">Project Seven</h3>
+            <p class="mt-2">Description of the project goes here.</p>
+        </div>
+        <div class="bg-gray-200 p-4 rounded-lg">
+          <h3 class="text-xl font-semibold">Project Eight</h3>
+          <p class="mt-2">Description of the project goes here.</p>
+      </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="my-8">
+            <h2 class="text-3xl font-bold mb-4">Contact</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="text-gray-700">Name</label>
+                        <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-lg">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="text-gray-700">Email</label>
+                        <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded-lg">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="text-gray-700">Message</label>
+                        <textarea id="message" class="w-full p-2 border border-gray-300 rounded-lg"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

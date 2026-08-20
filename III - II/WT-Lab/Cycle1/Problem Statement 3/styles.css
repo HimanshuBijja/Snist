@@ -1,0 +1,75 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the header */
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main content area */
+main {
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+/* Styling for the comments section */
+#comments {
+    margin-top: 30px;
+}
+
+#commentList {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+#commentList li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}

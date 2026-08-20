@@ -1,0 +1,4 @@
+Interactive Blog Post with Comments (3 hours)
+Create an interactive blog post with comments using HTML5, CSS3, and JavaScript. 
+The blog post should include a title, author, content, and a comment section.
+Use JavaScript to enable users to submit comments and display them on the page.

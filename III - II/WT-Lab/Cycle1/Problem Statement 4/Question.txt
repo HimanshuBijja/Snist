@@ -1,0 +1,3 @@
+Adaptive Landing Page for Different Devices (2 hours)
+Develop an adaptive landing page that adjusts its layout and content based on the user's device. Use HTML5, CSS3, and JavaScript to detect the device type and display the appropriate content. Employ media queries 
+and responsive design techniques to ensure the page looks great on all devices.

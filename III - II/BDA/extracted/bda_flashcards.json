@@ -1,0 +1,929 @@
+[
+  {
+    "question": "Which of the following is NOT one of the Four V's of Big Data?",
+    "answer": "Visualization",
+    "distractors": ["Volume", "Velocity", "Veracity"],
+    "explanation": "The Four V's of Big Data are Volume, Velocity, Variety, and Veracity. Visualization is a data analytics technique, not a defining characteristic.",
+    "hint": "Three V's start with V and describe quantity, speed, and types; the fourth describes trustworthiness.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "big-data", "four-vs", "characteristics"]
+  },
+  {
+    "question": "What does the 'Veracity' characteristic of Big Data refer to?",
+    "answer": "Trustworthiness in terms of quality and accuracy of data",
+    "distractors": ["The speed at which data is generated", "The various types/formats of data", "The total amount of data generated"],
+    "explanation": "Veracity refers to how reliable, accurate, and trustworthy the data is. It addresses the quality dimension of big data.",
+    "hint": "It relates to whether you can trust the data.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "big-data", "veracity", "four-vs"]
+  },
+  {
+    "question": "Which type of analytics answers the question 'What might happen in the future?'",
+    "answer": "Predictive Analytics",
+    "distractors": ["Descriptive Analytics", "Diagnostic Analytics", "Prescriptive Analytics"],
+    "explanation": "Predictive Analytics uses historical and current data along with AI/ML to make forecasts about future events.",
+    "hint": "It involves forecasting using AI and machine learning.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "analytics-types", "predictive-analytics"]
+  },
+  {
+    "question": "Which type of analytics tells us 'What should we do next?' by prescribing solutions?",
+    "answer": "Prescriptive Analytics",
+    "distractors": ["Descriptive Analytics", "Diagnostic Analytics", "Predictive Analytics"],
+    "explanation": "Prescriptive Analytics recommends actions to take. Self-driving cars are a classic example, analyzing the environment and deciding actions.",
+    "hint": "Think self-driving cars deciding actions.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "analytics-types", "prescriptive-analytics"]
+  },
+  {
+    "question": "Which data format does NOT have a fixed schema but contains some structural elements like tags?",
+    "answer": "Semi-structured data",
+    "distractors": ["Structured data", "Unstructured data", "Relational data"],
+    "explanation": "Semi-structured data (JSON, XML, log files, emails) doesn't fit a tabular model but has tags/metadata. It's often called NoSQL data.",
+    "hint": "JSON and XML files are examples.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "data-types", "semi-structured"]
+  },
+  {
+    "question": "What does Hadoop stand for?",
+    "answer": "High Availability Distributed Object Oriented Platform",
+    "distractors": ["Hierarchical Asynchronous Data Object Oriented Platform", "Highly Adaptable Distributed Open Object Platform", "Hadoop Apache Distributed Object Operating Platform"],
+    "explanation": "Hadoop is an open-source framework standing for High Availability Distributed Object Oriented Platform, designed for distributed storage and processing.",
+    "hint": "It starts with 'High Availability'.",
+    "difficulty": 3,
+    "tags": ["bda-unit-1", "hadoop", "definitions"]
+  },
+  {
+    "question": "Who developed Hadoop and named it after a toy?",
+    "answer": "Doug Cutting and Mike Cafarella",
+    "distractors": ["Larry Page and Sergey Brin", "Jeff Dean and Sanjay Ghemawat", "Linus Torvalds and Richard Stallman"],
+    "explanation": "Doug Cutting and Mike Cafarella created Hadoop. Doug named it after his son's toy elephant.",
+    "hint": "Named after a son's toy elephant.",
+    "difficulty": 3,
+    "tags": ["bda-unit-1", "hadoop", "history"]
+  },
+  {
+    "question": "What is the default block size in HDFS?",
+    "answer": "128 MB",
+    "distractors": ["64 MB", "256 MB", "512 MB"],
+    "explanation": "HDFS by default splits files into blocks of 128 MB. This size can be configured based on processing speed and data distribution needs.",
+    "hint": "It's a power of 2, between 64 and 256.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "hdfs", "blocks"]
+  },
+  {
+    "question": "In HDFS, which component stores the actual data?",
+    "answer": "DataNode",
+    "distractors": ["NameNode", "Secondary NameNode", "Checkpoint Node"],
+    "explanation": "DataNodes are slave servers that store the actual data blocks. NameNode only stores metadata about where the blocks are located.",
+    "hint": "It's the slave node in HDFS architecture.",
+    "difficulty": 1,
+    "tags": ["bda-unit-1", "hdfs", "datanode", "architecture"]
+  },
+  {
+    "question": "What is the default replication factor in HDFS?",
+    "answer": "3",
+    "distractors": ["1", "2", "5"],
+    "explanation": "HDFS replicates each block 3 times by default to ensure fault tolerance and data availability across the cluster.",
+    "hint": "Same as the number of sides in a triangle.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "hdfs", "replication"]
+  },
+  {
+    "question": "Which two files does the NameNode use to manage HDFS metadata?",
+    "answer": "FsImage and EditLogs",
+    "distractors": ["DataLog and Metadata", "BlockMap and HeartBeat", "Namespace and BlockReport"],
+    "explanation": "FsImage contains the complete filesystem snapshot, and EditLogs records all subsequent modifications to the filesystem.",
+    "hint": "One is a snapshot image, the other tracks changes.",
+    "difficulty": 3,
+    "tags": ["bda-unit-1", "hdfs", "namenode", "metadata"]
+  },
+  {
+    "question": "Which signal do DataNodes send to NameNode to indicate their health status?",
+    "answer": "Heartbeat",
+    "distractors": ["Pulse", "Ping", "KeepAlive"],
+    "explanation": "DataNodes send periodic heartbeat signals to the NameNode to confirm they are alive and functioning properly.",
+    "hint": "Named after a biological function indicating life.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "hdfs", "heartbeat"]
+  },
+  {
+    "question": "Which HDFS component is responsible for periodically merging FsImage with EditLogs?",
+    "answer": "Secondary NameNode",
+    "distractors": ["DataNode", "Resource Manager", "Application Master"],
+    "explanation": "Secondary NameNode periodically downloads FsImage and EditLogs from NameNode, merges them, and uploads the updated FsImage back, reducing NameNode restart time.",
+    "hint": "It's a helper, not a backup, for the NameNode.",
+    "difficulty": 3,
+    "tags": ["bda-unit-1", "hdfs", "secondary-namenode"]
+  },
+  {
+    "question": "Which HDFS command is used to copy files from the local filesystem to HDFS?",
+    "answer": "copyFromLocal (or put)",
+    "distractors": ["copyToLocal (or get)", "cp", "mv"],
+    "explanation": "copyFromLocal or its alias 'put' uploads files from the local filesystem to HDFS. copyToLocal/get does the reverse.",
+    "hint": "Its alias is 'put'.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "hdfs", "commands"]
+  },
+  {
+    "question": "According to HDFS Rack Awareness with replication factor 3, where is the third replica placed?",
+    "answer": "On a different rack from the first two replicas",
+    "distractors": ["On the same DataNode as the first replica", "On the same rack as the first replica", "On any random rack including the original"],
+    "explanation": "First replica is on the local rack, second on another DataNode in the same rack, and the third replica is placed on a different rack to ensure rack-level fault tolerance.",
+    "hint": "Think rack-level fault tolerance.",
+    "difficulty": 4,
+    "tags": ["bda-unit-1", "hdfs", "rack-awareness", "replication"]
+  },
+  {
+    "question": "Which Hadoop ecosystem component is the resource manager?",
+    "answer": "YARN",
+    "distractors": ["HDFS", "MapReduce", "HBase"],
+    "explanation": "YARN (Yet Another Resource Negotiator) handles resource management and job scheduling across the Hadoop cluster.",
+    "hint": "Its acronym starts with 'Yet Another'.",
+    "difficulty": 1,
+    "tags": ["bda-unit-1", "hadoop-ecosystem", "yarn"]
+  },
+  {
+    "question": "Which YARN component negotiates between Resource Manager and Node Manager?",
+    "answer": "Application Manager",
+    "distractors": ["Job Tracker", "Task Tracker", "DataNode"],
+    "explanation": "Application Manager works as an interface between Resource Manager and Node Manager, handling negotiations for resource requirements.",
+    "hint": "It's the third component besides Resource and Node Manager.",
+    "difficulty": 3,
+    "tags": ["bda-unit-1", "yarn", "architecture"]
+  },
+  {
+    "question": "Which Hadoop ecosystem tool provides SQL-like querying via HiveQL?",
+    "answer": "Hive",
+    "distractors": ["Pig", "Sqoop", "Mahout"],
+    "explanation": "Hive provides a data warehousing solution with HiveQL (HQL), a SQL-like query language that internally compiles to MapReduce jobs.",
+    "hint": "HIVE + SQL = HQL.",
+    "difficulty": 1,
+    "tags": ["bda-unit-1", "hadoop-ecosystem", "hive"]
+  },
+  {
+    "question": "Which Hadoop ecosystem tool is used for transferring bulk data between RDBMS and Hadoop?",
+    "answer": "Sqoop",
+    "distractors": ["Flume", "Oozie", "Zookeeper"],
+    "explanation": "Sqoop (SQL-to-Hadoop) is a tool designed specifically to import/export bulk data between relational databases and Hadoop.",
+    "hint": "Its name combines SQL and Hadoop.",
+    "difficulty": 1,
+    "tags": ["bda-unit-1", "hadoop-ecosystem", "sqoop"]
+  },
+  {
+    "question": "Which Hadoop ecosystem component provides machine learning libraries?",
+    "answer": "Mahout",
+    "distractors": ["Hive", "Pig", "HBase"],
+    "explanation": "Apache Mahout provides machine learning algorithms like clustering, classification, and collaborative filtering on top of Hadoop.",
+    "hint": "It rhymes with 'shout'.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "hadoop-ecosystem", "mahout", "machine-learning"]
+  },
+  {
+    "question": "Which tool is used as a workflow scheduler for Hadoop jobs?",
+    "answer": "Oozie",
+    "distractors": ["Zookeeper", "Flume", "Avro"],
+    "explanation": "Apache Oozie is a workflow scheduler that manages Hadoop jobs, allowing pipelining of jobs like Pig, Hive, Sqoop, etc.",
+    "hint": "Sounds like a sleepy state.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "hadoop-ecosystem", "oozie", "scheduling"]
+  },
+  {
+    "question": "Which Hadoop tool collects, aggregates, and moves large amounts of log data into HDFS?",
+    "answer": "Flume",
+    "distractors": ["Sqoop", "Chukwa", "Pig"],
+    "explanation": "Apache Flume is a distributed, reliable service for efficiently collecting and moving log and event data from various sources to HDFS.",
+    "hint": "Its name evokes channels of water flowing.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "hadoop-ecosystem", "flume", "data-ingestion"]
+  },
+  {
+    "question": "Which Hadoop ecosystem component is a data serialization system?",
+    "answer": "Avro",
+    "distractors": ["Pig", "Hive", "Sqoop"],
+    "explanation": "Apache Avro is a data serialization system that uses schemas for data exchange between programs written in different languages.",
+    "hint": "Four-letter component starting with 'A'.",
+    "difficulty": 3,
+    "tags": ["bda-unit-1", "hadoop-ecosystem", "avro", "serialization"]
+  },
+  {
+    "question": "In MapReduce, what is the master daemon called?",
+    "answer": "Job Tracker",
+    "distractors": ["Task Tracker", "Resource Manager", "Name Node"],
+    "explanation": "Job Tracker is the master daemon in classic MapReduce that manages all resources, schedules jobs, and monitors execution across the cluster.",
+    "hint": "It tracks the entire job.",
+    "difficulty": 2,
+    "tags": ["bda-unit-2", "mapreduce", "job-tracker"]
+  },
+  {
+    "question": "Which MapReduce phase organizes data with the same key into groups before reduction?",
+    "answer": "Shuffling",
+    "distractors": ["Mapping", "Combining", "Partitioning"],
+    "explanation": "The shuffling phase transfers data from mappers to reducers and combines all values associated with the same key together.",
+    "hint": "Like shuffling cards together by suit.",
+    "difficulty": 3,
+    "tags": ["bda-unit-2", "mapreduce", "shuffle"]
+  },
+  {
+    "question": "What is a Combiner in MapReduce also known as?",
+    "answer": "Semi-reducer (local Reducer)",
+    "distractors": ["Mini-mapper", "Pre-partitioner", "Sub-shuffler"],
+    "explanation": "Combiner is also called semi-reducer or local reducer because it performs local aggregation on a single mapper's output to reduce network congestion.",
+    "hint": "It does partial reduction locally.",
+    "difficulty": 3,
+    "tags": ["bda-unit-2", "mapreduce", "combiner"]
+  },
+  {
+    "question": "In MapReduce, what determines which Reducer a particular key goes to?",
+    "answer": "Partitioner",
+    "distractors": ["Combiner", "Record Reader", "Output Format"],
+    "explanation": "Partitioner takes the output of the combiner and partitions the data based on key values, ensuring values with the same key go to the same reducer.",
+    "hint": "It divides data into partitions.",
+    "difficulty": 3,
+    "tags": ["bda-unit-2", "mapreduce", "partitioner"]
+  },
+  {
+    "question": "What does Hive use as its query language?",
+    "answer": "HiveQL (HQL)",
+    "distractors": ["PigLatin", "Standard SQL only", "SparkSQL"],
+    "explanation": "HiveQL or HQL is a SQL-like language used in Hive that gets internally translated to MapReduce jobs.",
+    "hint": "Its abbreviation is HQL.",
+    "difficulty": 1,
+    "tags": ["bda-unit-2", "hive", "hiveql"]
+  },
+  {
+    "question": "Which Hive component stores the metadata of tables and partitions?",
+    "answer": "Hive MetaStore",
+    "distractors": ["Hive Driver", "Hive Compiler", "Hive Execution Engine"],
+    "explanation": "Hive MetaStore is a central repository that stores structure information of tables, partitions, columns, types, and HDFS file locations.",
+    "hint": "Its name literally describes what it stores.",
+    "difficulty": 2,
+    "tags": ["bda-unit-2", "hive", "metastore", "architecture"]
+  },
+  {
+    "question": "Which Hive file format is optimized as a columnar storage format with efficient I/O?",
+    "answer": "ORC (Optimized Row Columnar)",
+    "distractors": ["TextFile", "SequenceFile", "RCFile"],
+    "explanation": "ORC reduces I/O overhead by accessing only required columns and stores data in compressed columnar form for fast querying.",
+    "hint": "Its full name describes optimized columnar storage.",
+    "difficulty": 3,
+    "tags": ["bda-unit-2", "hive", "file-formats", "orc"]
+  },
+  {
+    "question": "What is the size range of the Hive INT (Integer) data type?",
+    "answer": "-2,147,483,648 to 2,147,483,647 (4-byte signed)",
+    "distractors": ["-32,768 to 32,767 (2-byte)", "-128 to 127 (1-byte)", "-9.2 × 10^18 to 9.2 × 10^18 (8-byte)"],
+    "explanation": "Hive INT is a 4-byte signed integer with range -2,147,483,648 to 2,147,483,647. SMALLINT is 2-byte, TINYINT is 1-byte, BIGINT is 8-byte.",
+    "hint": "It's the standard 32-bit signed integer range.",
+    "difficulty": 3,
+    "tags": ["bda-unit-2", "hive", "data-types"]
+  },
+  {
+    "question": "Which Hive complex data type is a collection of key-value pairs?",
+    "answer": "MAP",
+    "distractors": ["ARRAY", "STRUCT", "UNION"],
+    "explanation": "MAP<primitive_type, data_type> stores key-value pairs where keys must be primitives and all values share a common type.",
+    "hint": "Same name as a function for transforming collections.",
+    "difficulty": 2,
+    "tags": ["bda-unit-2", "hive", "complex-types"]
+  },
+  {
+    "question": "Which Hive DDL command is used to drop a database that contains tables?",
+    "answer": "DROP DATABASE database_name CASCADE",
+    "distractors": ["DROP DATABASE database_name RESTRICT", "DELETE DATABASE database_name", "REMOVE DATABASE database_name FORCE"],
+    "explanation": "By default DROP DATABASE uses RESTRICT (only drops empty databases). CASCADE drops the database along with all its tables.",
+    "hint": "The keyword sounds like a waterfall.",
+    "difficulty": 3,
+    "tags": ["bda-unit-2", "hive", "ddl"]
+  },
+  {
+    "question": "Which Hive join returns all records from the left table and matched records from the right table, with NULLs for unmatched?",
+    "answer": "Left Outer Join",
+    "distractors": ["Inner Join", "Right Outer Join", "Full Outer Join"],
+    "explanation": "LEFT OUTER JOIN keeps all rows from left table, fills NULL for columns from right table when no match exists.",
+    "hint": "It preserves the left side.",
+    "difficulty": 2,
+    "tags": ["bda-unit-2", "hive", "joins"]
+  },
+  {
+    "question": "Which Hive window function returns the data from the NEXT row?",
+    "answer": "LEAD",
+    "distractors": ["LAG", "FIRST_VALUE", "LAST_VALUE"],
+    "explanation": "LEAD returns data from the next row in the window. LAG returns data from the previous row.",
+    "hint": "The opposite of LAG.",
+    "difficulty": 3,
+    "tags": ["bda-unit-2", "hive", "window-functions"]
+  },
+  {
+    "question": "In Hive, what is the storage technique used to organize data based on a column's hash function?",
+    "answer": "Bucketing",
+    "distractors": ["Partitioning", "Indexing", "Sharding"],
+    "explanation": "Bucketing divides data within partitions using a hash function on a column. Partitioning splits by column value (like date), while bucketing uses hash-based distribution.",
+    "hint": "Think of pouring data into hash-based containers.",
+    "difficulty": 3,
+    "tags": ["bda-unit-2", "hive", "bucketing"]
+  },
+  {
+    "question": "What does Sqoop stand for?",
+    "answer": "SQL-to-Hadoop",
+    "distractors": ["Structured Query Output Operations", "Scalable Query Object-Oriented Platform", "Sequential Query Operation"],
+    "explanation": "Sqoop combines first two letters of SQL and last three letters of Hadoop. It bridges relational databases with Hadoop.",
+    "hint": "It's a portmanteau of SQL and Hadoop.",
+    "difficulty": 2,
+    "tags": ["bda-unit-3", "sqoop"]
+  },
+  {
+    "question": "In Sqoop, which argument is used to import only newly added rows since last import?",
+    "answer": "--incremental append",
+    "distractors": ["--incremental lastmodified", "--update-mode", "--new-rows"],
+    "explanation": "--incremental append fetches newly added rows. --incremental lastmodified fetches modified rows.",
+    "hint": "It's the mode that adds onto existing data.",
+    "difficulty": 3,
+    "tags": ["bda-unit-3", "sqoop", "incremental-import"]
+  },
+  {
+    "question": "Which Sqoop argument specifies the column to examine for determining new rows during incremental import?",
+    "answer": "--check-column",
+    "distractors": ["--last-value", "--incremental", "--key-column"],
+    "explanation": "--check-column specifies the column (typically a primary key or timestamp) used to detect new/modified rows during incremental import.",
+    "hint": "It's the column being 'checked' for changes.",
+    "difficulty": 3,
+    "tags": ["bda-unit-3", "sqoop", "incremental-import"]
+  },
+  {
+    "question": "Which security protocol does Sqoop support for authentication?",
+    "answer": "Kerberos",
+    "distractors": ["OAuth", "SAML", "LDAP"],
+    "explanation": "Sqoop supports Kerberos network authentication protocol, enabling secure communication over insecure networks.",
+    "hint": "Named after the three-headed dog of Greek mythology.",
+    "difficulty": 3,
+    "tags": ["bda-unit-3", "sqoop", "security"]
+  },
+  {
+    "question": "What does NoSQL primarily stand for?",
+    "answer": "Not Only SQL",
+    "distractors": ["No SQL Allowed", "Non-Standard Query Language", "Network Object SQL"],
+    "explanation": "NoSQL means 'Not Only SQL' (or sometimes 'Non-Relational'), referring to databases that store and retrieve data using mechanisms different from traditional relational tables.",
+    "hint": "It doesn't completely exclude SQL.",
+    "difficulty": 2,
+    "tags": ["bda-unit-3", "nosql"]
+  },
+  {
+    "question": "Which NoSQL database type is best suited for storing relationships like social networks?",
+    "answer": "Graph-based",
+    "distractors": ["Key-value", "Column-oriented", "Document-oriented"],
+    "explanation": "Graph databases store data as nodes and edges, making them ideal for navigating relationships in social networks, logistics, and spatial data.",
+    "hint": "It uses nodes and edges.",
+    "difficulty": 2,
+    "tags": ["bda-unit-3", "nosql", "graph-database"]
+  },
+  {
+    "question": "Which NoSQL category does MongoDB fall under?",
+    "answer": "Document-oriented",
+    "distractors": ["Key-value", "Column-based", "Graph-based"],
+    "explanation": "MongoDB stores data as JSON-like documents, making it a document-oriented NoSQL database. CouchDB is another example.",
+    "hint": "It stores JSON/BSON-like documents.",
+    "difficulty": 2,
+    "tags": ["bda-unit-3", "nosql", "mongodb"]
+  },
+  {
+    "question": "What process is used in NoSQL for horizontal scaling by distributing data across multiple machines?",
+    "answer": "Sharding",
+    "distractors": ["Replication", "Partitioning", "Normalization"],
+    "explanation": "Sharding splits a database across multiple machines while preserving data order, enabling horizontal scaling.",
+    "hint": "It sounds like breaking glass into pieces.",
+    "difficulty": 3,
+    "tags": ["bda-unit-3", "nosql", "sharding", "scalability"]
+  },
+  {
+    "question": "Which HBase architecture component assigns regions to Region Servers and handles DDL operations?",
+    "answer": "HMaster",
+    "distractors": ["Region Server", "Zookeeper", "HDFS"],
+    "explanation": "HMaster is the master server in HBase that assigns regions, handles DDL (create/delete table) operations, and manages load balancing.",
+    "hint": "It's the master process in HBase.",
+    "difficulty": 2,
+    "tags": ["bda-unit-3", "hbase", "hmaster", "architecture"]
+  },
+  {
+    "question": "In HBase architecture, what serves as a coordinator and provides distributed synchronization?",
+    "answer": "Zookeeper",
+    "distractors": ["HMaster", "Region Server", "MemStore"],
+    "explanation": "Zookeeper provides coordination services in HBase including configuration management, naming, distributed synchronization, and failure notification.",
+    "hint": "It's named after an animal caretaker.",
+    "difficulty": 2,
+    "tags": ["bda-unit-3", "hbase", "zookeeper"]
+  },
+  {
+    "question": "What is the default size of a region in HBase?",
+    "answer": "256 MB",
+    "distractors": ["64 MB", "128 MB", "512 MB"],
+    "explanation": "The default region size in HBase is 256 MB. Regions are tables split horizontally and distributed across Region Servers.",
+    "hint": "Twice the HDFS default block size.",
+    "difficulty": 4,
+    "tags": ["bda-unit-3", "hbase", "regions"]
+  },
+  {
+    "question": "In HBase, what acts as the cache memory where new data is initially stored before being flushed to HFiles?",
+    "answer": "MemStore",
+    "distractors": ["HMaster", "BlockCache", "WAL"],
+    "explanation": "MemStore is the in-memory write cache in HBase. New data goes there first; once full, it's flushed to HFiles on disk.",
+    "hint": "Combines 'memory' and 'store'.",
+    "difficulty": 3,
+    "tags": ["bda-unit-3", "hbase", "memstore"]
+  },
+  {
+    "question": "In HBase, which is the correct hierarchy from top to bottom?",
+    "answer": "Table → Row → Column Family → Column",
+    "distractors": ["Table → Column Family → Row → Column", "Column → Row → Column Family → Table", "Column Family → Table → Column → Row"],
+    "explanation": "In HBase: Table is a collection of rows, each row contains column families, each column family contains columns, and columns are key-value pairs.",
+    "hint": "Tables contain rows, which contain column families.",
+    "difficulty": 3,
+    "tags": ["bda-unit-3", "hbase", "data-model"]
+  },
+  {
+    "question": "What does the 'C' in CRUD stand for?",
+    "answer": "Create",
+    "distractors": ["Copy", "Connect", "Compute"],
+    "explanation": "CRUD stands for Create, Read, Update, Delete - the four fundamental operations on database records.",
+    "hint": "It's about making new records.",
+    "difficulty": 1,
+    "tags": ["bda-unit-3", "crud", "databases"]
+  },
+  {
+    "question": "When was Apache Spark first open-sourced?",
+    "answer": "2010",
+    "distractors": ["2008", "2013", "2014"],
+    "explanation": "Spark was open-sourced under BSD license in March 2010. It started as a 2009 research project at UC Berkeley AMPLab.",
+    "hint": "Started in 2009, open-sourced one year later.",
+    "difficulty": 4,
+    "tags": ["bda-unit-4", "spark", "history"]
+  },
+  {
+    "question": "Spark performs in-memory computation approximately how many times faster than disk-based MapReduce?",
+    "answer": "100x faster",
+    "distractors": ["10x faster", "1000x faster", "5x faster"],
+    "explanation": "Spark is approximately 100x faster for in-memory computation and 10x faster for disk-based operations compared to Hadoop MapReduce.",
+    "hint": "Two orders of magnitude.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "performance"]
+  },
+  {
+    "question": "What does RDD stand for in Spark?",
+    "answer": "Resilient Distributed Dataset",
+    "distractors": ["Reliable Distributed Database", "Replicated Data Dataset", "Random Distributed Data"],
+    "explanation": "RDD stands for Resilient Distributed Dataset - the fundamental data structure in Spark that is fault-tolerant, distributed, and immutable.",
+    "hint": "Resilient meaning fault-tolerant.",
+    "difficulty": 1,
+    "tags": ["bda-unit-4", "spark", "rdd"]
+  },
+  {
+    "question": "Which Spark component is used for machine learning?",
+    "answer": "MLlib",
+    "distractors": ["Spark SQL", "GraphX", "Spark Streaming"],
+    "explanation": "MLlib is Spark's machine learning library providing scalable algorithms for classification, regression, clustering, etc.",
+    "hint": "ML stands for machine learning.",
+    "difficulty": 1,
+    "tags": ["bda-unit-4", "spark", "mllib", "ecosystem"]
+  },
+  {
+    "question": "Which Spark component is used for graph computation?",
+    "answer": "GraphX",
+    "distractors": ["MLlib", "Spark SQL", "Spark Streaming"],
+    "explanation": "GraphX is Spark's graph computation engine that processes graph data at scale, supporting both edges and vertices.",
+    "hint": "Has 'Graph' in its name.",
+    "difficulty": 1,
+    "tags": ["bda-unit-4", "spark", "graphx", "ecosystem"]
+  },
+  {
+    "question": "Which Spark component allows running SQL/HQL queries on Spark data?",
+    "answer": "Spark SQL",
+    "distractors": ["Spark Core", "Spark Streaming", "SparkR"],
+    "explanation": "Spark SQL enables running SQL-like queries on data in RDDs and external sources, providing declarative query capabilities.",
+    "hint": "It has SQL in its name.",
+    "difficulty": 1,
+    "tags": ["bda-unit-4", "spark", "spark-sql"]
+  },
+  {
+    "question": "In Spark architecture, which component coordinates the application and creates the SparkContext?",
+    "answer": "Driver Program",
+    "distractors": ["Worker Node", "Executor", "Cluster Manager"],
+    "explanation": "The Driver Program runs the main() function and creates SparkContext, which coordinates Spark applications running as independent processes on a cluster.",
+    "hint": "It drives the execution.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "architecture", "driver"]
+  },
+  {
+    "question": "What does DAG stand for in Spark?",
+    "answer": "Directed Acyclic Graph",
+    "distractors": ["Distributed Action Graph", "Dynamic Application Group", "Data Aggregation Graph"],
+    "explanation": "DAG is a Directed Acyclic Graph of vertices (RDDs) and edges (operations) representing the sequence of computations in Spark.",
+    "hint": "It's a graph with direction but no cycles.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "dag"]
+  },
+  {
+    "question": "Which type of Spark operation is lazy and only creates a new RDD without computing?",
+    "answer": "Transformation",
+    "distractors": ["Action", "Persist", "Cache"],
+    "explanation": "Transformations (like map, filter, flatMap) are lazy and only create new RDDs. Actions (like collect, count) trigger actual computation.",
+    "hint": "It transforms an RDD but doesn't return a value to driver.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "transformations"]
+  },
+  {
+    "question": "Which Spark RDD operation returns all elements as an array to the driver program?",
+    "answer": "collect()",
+    "distractors": ["count()", "take()", "reduce()"],
+    "explanation": "collect() returns all elements of the dataset to the driver as an array. Useful for small datasets after filtering.",
+    "hint": "It gathers all data together.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "actions"]
+  },
+  {
+    "question": "Which RDD transformation returns a new RDD with elements that pass a condition?",
+    "answer": "filter()",
+    "distractors": ["map()", "reduce()", "flatMap()"],
+    "explanation": "filter(func) returns a new RDD containing only elements for which func returns true.",
+    "hint": "It filters elements like a sieve.",
+    "difficulty": 1,
+    "tags": ["bda-unit-4", "spark", "transformations"]
+  },
+  {
+    "question": "Which Spark RDD persistence storage level is the default for cache()?",
+    "answer": "MEMORY_ONLY",
+    "distractors": ["MEMORY_AND_DISK", "DISK_ONLY", "MEMORY_ONLY_SER"],
+    "explanation": "cache() uses MEMORY_ONLY by default. persist() allows specifying different storage levels.",
+    "hint": "The simplest and fastest storage option.",
+    "difficulty": 3,
+    "tags": ["bda-unit-4", "spark", "persistence", "cache"]
+  },
+  {
+    "question": "Which algorithm does Spark use to automatically drop old data partitions from cache?",
+    "answer": "LRU (Least Recently Used)",
+    "distractors": ["FIFO (First In First Out)", "LFU (Least Frequently Used)", "MRU (Most Recently Used)"],
+    "explanation": "Spark monitors cache and drops the least recently used (LRU) partitions when memory is needed.",
+    "hint": "Three-letter acronym for a cache eviction policy.",
+    "difficulty": 3,
+    "tags": ["bda-unit-4", "spark", "cache", "lru"]
+  },
+  {
+    "question": "Which Pair RDD transformation combines values with the same key using a reduce function?",
+    "answer": "reduceByKey",
+    "distractors": ["groupByKey", "mapValues", "sortByKey"],
+    "explanation": "reduceByKey(func) combines values with the same key using the given associative reduce function, performing local aggregation before shuffle.",
+    "hint": "Combines reduce + by + key.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "pair-rdd", "transformations"]
+  },
+  {
+    "question": "Which Pair RDD action returns a hashmap of (K, Int) pairs with counts for each key?",
+    "answer": "countByKey()",
+    "distractors": ["collectAsMap()", "groupByKey()", "lookup()"],
+    "explanation": "countByKey() counts occurrences of each key and returns a hashmap of (K, count) pairs. Only available on Pair RDDs.",
+    "hint": "Counts elements grouped by key.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "pair-rdd", "actions"]
+  },
+  {
+    "question": "What programming language is the Spark framework primarily built in?",
+    "answer": "Scala",
+    "distractors": ["Java", "Python", "C++"],
+    "explanation": "Spark is built in Scala. It also provides APIs for Java, Python, and R.",
+    "hint": "Its name means 'scalable language'.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "scala"]
+  },
+  {
+    "question": "What is the command to start the Apache Spark Shell?",
+    "answer": "$bin/spark-shell",
+    "distractors": ["$bin/start-spark", "$spark-start", "$spark-cli"],
+    "explanation": "The Spark Shell is started using $bin/spark-shell, which provides an interactive Scala REPL with Spark context preloaded.",
+    "hint": "Combines the framework name with 'shell'.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "spark-shell"]
+  },
+  {
+    "question": "Which Spark method creates an RDD from an existing collection in the driver program?",
+    "answer": "parallelize()",
+    "distractors": ["textFile()", "collect()", "map()"],
+    "explanation": "sc.parallelize(collection) creates an RDD by distributing an existing collection across the cluster.",
+    "hint": "The name suggests making something parallel.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "rdd-creation"]
+  },
+  {
+    "question": "What are the two main advantages DataFrames have over RDDs?",
+    "answer": "Catalyst Optimizer and Project Tungsten memory management",
+    "distractors": ["Faster network and better security", "Type safety and immutability", "Better serialization and compression"],
+    "explanation": "DataFrames provide optimized execution via Catalyst Optimizer and custom memory management via Project Tungsten, both unavailable in raw RDDs.",
+    "hint": "One is named after a chemical element, the other after a logician.",
+    "difficulty": 4,
+    "tags": ["bda-unit-5", "spark", "dataframe", "rdd"]
+  },
+  {
+    "question": "In which Spark version were DataFrames introduced?",
+    "answer": "Spark 1.3",
+    "distractors": ["Spark 1.0", "Spark 1.6", "Spark 2.0"],
+    "explanation": "DataFrames were introduced in Spark 1.3. RDDs in 1.0, Datasets in 1.6.",
+    "hint": "Between RDDs (1.0) and Datasets (1.6).",
+    "difficulty": 4,
+    "tags": ["bda-unit-5", "spark", "dataframe", "history"]
+  },
+  {
+    "question": "Which Spark Structured API has compile-time type safety in Scala?",
+    "answer": "Dataset",
+    "distractors": ["DataFrame", "RDD only", "SQL tables"],
+    "explanation": "Dataset provides compile-time type safety. DataFrames don't have compile-time type safety (errors detected only at runtime).",
+    "hint": "It's the strongly-typed version of DataFrame.",
+    "difficulty": 3,
+    "tags": ["bda-unit-5", "spark", "dataset", "type-safety"]
+  },
+  {
+    "question": "Which Spark DataFrame method is used to add or modify a column?",
+    "answer": "withColumn()",
+    "distractors": ["addColumn()", "select()", "filter()"],
+    "explanation": "withColumn(colName, col) is a transformation that adds a new column or modifies an existing one in a DataFrame.",
+    "hint": "Use 'with' before 'column'.",
+    "difficulty": 2,
+    "tags": ["bda-unit-5", "spark", "dataframe", "transformations"]
+  },
+  {
+    "question": "What is the catalyst optimizer used for in Spark?",
+    "answer": "Optimizing logical plans by pushing down predicates and selections",
+    "distractors": ["Encrypting data at rest", "Managing memory allocation only", "Network communication only"],
+    "explanation": "The Catalyst Optimizer is a rule-based optimizer that optimizes the logical plan of DataFrame/SQL queries before physical execution.",
+    "hint": "It catalyzes query optimization.",
+    "difficulty": 3,
+    "tags": ["bda-unit-5", "spark", "catalyst", "optimization"]
+  },
+  {
+    "question": "What is the correct order of structured API query execution in Spark?",
+    "answer": "Write code → Logical Plan → Physical Plan → Execute on cluster",
+    "distractors": ["Physical Plan → Logical Plan → Code → Execute", "Code → Physical Plan → Logical Plan → Execute", "Logical Plan → Physical Plan → Code → Execute"],
+    "explanation": "Code is converted to a logical plan, then optimized into a physical plan, which is then executed as RDD operations on the cluster.",
+    "hint": "Logical before physical.",
+    "difficulty": 3,
+    "tags": ["bda-unit-5", "spark", "execution-flow"]
+  },
+  {
+    "question": "Which Spark file format is columnar, compressed, and provides 75% storage reduction?",
+    "answer": "Parquet",
+    "distractors": ["CSV", "JSON", "Text"],
+    "explanation": "Apache Parquet is a columnar file format that offers high compression (~75% reduction) and efficient column-pruning queries.",
+    "hint": "Named after a type of flooring.",
+    "difficulty": 2,
+    "tags": ["bda-unit-5", "spark", "parquet", "file-formats"]
+  },
+  {
+    "question": "Which Spark DataFrame method specifies that the first line of a CSV file contains column names?",
+    "answer": "option(\"header\", true)",
+    "distractors": ["withHeader(true)", "csvHeader(true)", "setColumns(true)"],
+    "explanation": "When reading a CSV with column names in the first row, use .option(\"header\", true) so Spark uses them as column names rather than data.",
+    "hint": "Set it as an option.",
+    "difficulty": 3,
+    "tags": ["bda-unit-5", "spark", "csv", "dataframe"]
+  },
+  {
+    "question": "Which Spark SQL data type represents true/false values?",
+    "answer": "BooleanType",
+    "distractors": ["BitType", "FlagType", "LogicalType"],
+    "explanation": "BooleanType in Spark SQL represents true/false values. Found in org.apache.spark.sql.types.",
+    "hint": "Named after the mathematician George Boole.",
+    "difficulty": 1,
+    "tags": ["bda-unit-5", "spark", "data-types"]
+  },
+  {
+    "question": "Which class is used to define the schema structure of a Spark DataFrame?",
+    "answer": "StructType",
+    "distractors": ["SchemaType", "DataType", "RowType"],
+    "explanation": "StructType is a collection of StructField objects that define column name, data type, and nullable property in a DataFrame schema.",
+    "hint": "It structures the column types.",
+    "difficulty": 3,
+    "tags": ["bda-unit-5", "spark", "schema", "structtype"]
+  },
+  {
+    "question": "Which Spark DataFrame transformation groups rows by one or more columns?",
+    "answer": "groupBy()",
+    "distractors": ["partitionBy()", "clusterBy()", "aggregate()"],
+    "explanation": "groupBy() groups rows for aggregation operations. partitionBy() is used for partitioning when writing data.",
+    "hint": "Similar to SQL GROUP BY.",
+    "difficulty": 2,
+    "tags": ["bda-unit-5", "spark", "dataframe", "transformations"]
+  },
+  {
+    "question": "What does a UDAF in Spark stand for?",
+    "answer": "User-Defined Aggregate Function",
+    "distractors": ["Universal Data Access Function", "User-Defined Application Framework", "Unified Database Aggregation Format"],
+    "explanation": "UDAFs are user-programmable routines that act on multiple rows and return a single aggregated value, extending Spark's built-in aggregations.",
+    "hint": "User-defined version of SUM, AVG, etc.",
+    "difficulty": 3,
+    "tags": ["bda-unit-5", "spark", "udaf", "aggregations"]
+  },
+  {
+    "question": "Which Spark Aggregator method merges two intermediate buffers?",
+    "answer": "merge(b1, b2)",
+    "distractors": ["combine(b1, b2)", "reduce(b1, b2)", "join(b1, b2)"],
+    "explanation": "The merge(b1: BUF, b2: BUF): BUF method combines two intermediate values in a custom Aggregator (UDAF).",
+    "hint": "Combines two buffers into one.",
+    "difficulty": 4,
+    "tags": ["bda-unit-5", "spark", "udaf", "aggregator"]
+  },
+  {
+    "question": "What is the main abstraction Spark Streaming uses to represent a continuous data stream?",
+    "answer": "DStream (Discretized Stream)",
+    "distractors": ["RDD", "DataFrame", "Channel"],
+    "explanation": "DStream (Discretized Stream) represents a continuous stream of data and is internally a sequence of RDDs in micro-batches.",
+    "hint": "Starts with 'D' for Discretized.",
+    "difficulty": 2,
+    "tags": ["bda-unit-6", "spark-streaming", "dstream"]
+  },
+  {
+    "question": "Internally, how does Spark Streaming process live data?",
+    "answer": "By dividing data into batches processed by the Spark engine",
+    "distractors": ["Element-by-element with no batching", "Only after the stream ends", "Through manual checkpoints only"],
+    "explanation": "Spark Streaming receives live input streams, divides data into micro-batches, and processes them with the Spark engine to generate batched results.",
+    "hint": "Micro-batching.",
+    "difficulty": 2,
+    "tags": ["bda-unit-6", "spark-streaming", "micro-batching"]
+  },
+  {
+    "question": "Which is the main entry point for Spark Streaming functionality?",
+    "answer": "StreamingContext",
+    "distractors": ["SparkContext", "SQLContext", "HiveContext"],
+    "explanation": "StreamingContext is the main entry point for all streaming functionality, similar to how SparkContext is for batch operations.",
+    "hint": "Combines streaming with context.",
+    "difficulty": 2,
+    "tags": ["bda-unit-6", "spark-streaming", "streaming-context"]
+  },
+  {
+    "question": "Which Structured Streaming output mode rewrites the full output every time?",
+    "answer": "Complete",
+    "distractors": ["Append", "Update", "Overwrite"],
+    "explanation": "Complete mode rewrites the entire output. Append only adds new records. Update updates changed records in place.",
+    "hint": "Outputs the entire result every time.",
+    "difficulty": 3,
+    "tags": ["bda-unit-6", "structured-streaming", "output-modes"]
+  },
+  {
+    "question": "Which Structured Streaming output mode only adds new records to the sink?",
+    "answer": "Append",
+    "distractors": ["Update", "Complete", "Insert"],
+    "explanation": "Append mode only writes new records to the output sink without modifying existing ones.",
+    "hint": "It appends to existing data.",
+    "difficulty": 2,
+    "tags": ["bda-unit-6", "structured-streaming", "output-modes"]
+  },
+  {
+    "question": "What concept does Spark Structured Streaming use to model a stream of data?",
+    "answer": "A continuously appended table",
+    "distractors": ["A linked list of records", "A fixed-size circular buffer", "A directed acyclic graph"],
+    "explanation": "Structured Streaming treats a stream as an unbounded table to which data is continuously appended, enabling SQL-like operations.",
+    "hint": "Like a never-ending database table.",
+    "difficulty": 3,
+    "tags": ["bda-unit-6", "structured-streaming", "concepts"]
+  },
+  {
+    "question": "Which Spark Streaming transformation flattens line records into multiple word records?",
+    "answer": "flatMap()",
+    "distractors": ["map()", "filter()", "reduceByKey()"],
+    "explanation": "flatMap is a one-to-many operation that can produce multiple output records per input record, e.g., splitting a line into words.",
+    "hint": "It's like map but flattens nested results.",
+    "difficulty": 2,
+    "tags": ["bda-unit-6", "spark-streaming", "transformations"]
+  },
+  {
+    "question": "Which open-source publish-subscribe messaging system is commonly used with Spark Streaming?",
+    "answer": "Apache Kafka",
+    "distractors": ["Apache Pig", "Apache Hive", "Apache Sqoop"],
+    "explanation": "Apache Kafka is a popular distributed publish-subscribe messaging system used as input/output source for Spark Streaming.",
+    "hint": "Named after a Czech author.",
+    "difficulty": 1,
+    "tags": ["bda-unit-6", "kafka", "messaging"]
+  },
+  {
+    "question": "What synchronization service is Apache Kafka built on top of?",
+    "answer": "Apache Zookeeper",
+    "distractors": ["Apache Mesos", "Apache YARN", "Apache HDFS"],
+    "explanation": "Kafka uses Apache Zookeeper for cluster coordination, configuration management, and synchronization.",
+    "hint": "Same coordinator used by HBase.",
+    "difficulty": 3,
+    "tags": ["bda-unit-6", "kafka", "zookeeper"]
+  },
+  {
+    "question": "In Kafka terminology, what are message producers and consumers called in the publish-subscribe model?",
+    "answer": "Publishers and Subscribers",
+    "distractors": ["Senders and Receivers", "Brokers and Clients", "Masters and Slaves"],
+    "explanation": "In publish-subscribe systems, message producers are called publishers and message consumers are called subscribers.",
+    "hint": "Like a newspaper and its readers.",
+    "difficulty": 2,
+    "tags": ["bda-unit-6", "kafka", "pub-sub"]
+  },
+  {
+    "question": "What is the basic unit of data in Kafka?",
+    "answer": "Message (or record)",
+    "distractors": ["Block", "Partition", "Topic"],
+    "explanation": "A message (sometimes called a record) is the basic unit of data in Kafka. Topics organize messages, partitions split topics across brokers.",
+    "hint": "It's what publishers send.",
+    "difficulty": 2,
+    "tags": ["bda-unit-6", "kafka", "messages"]
+  },
+  {
+    "question": "What allows you to parallelize a Kafka topic across multiple brokers?",
+    "answer": "Partitions",
+    "distractors": ["Replicas", "Segments", "Offsets"],
+    "explanation": "Partitions split data in a topic across multiple brokers, enabling parallelism and scalability in Kafka.",
+    "hint": "Splits a topic into parts.",
+    "difficulty": 3,
+    "tags": ["bda-unit-6", "kafka", "partitions"]
+  },
+  {
+    "question": "Which Kafka feature ensures fault tolerance by writing messages persistently to disk?",
+    "answer": "Distributed commit log with disk persistence",
+    "distractors": ["In-memory caching only", "RAM-only replication", "Snapshot-based backup"],
+    "explanation": "Kafka uses a distributed commit log where messages persist on disk and are replicated across the cluster, providing durability and fault tolerance.",
+    "hint": "Messages survive crashes by being on disk.",
+    "difficulty": 4,
+    "tags": ["bda-unit-6", "kafka", "durability"]
+  },
+  {
+    "question": "Which Spark Streaming function returns counts of each unique element in a DStream?",
+    "answer": "countByValue()",
+    "distractors": ["count()", "reduceByKey()", "countByKey()"],
+    "explanation": "countByValue() on a DStream of K returns a new DStream of (K, Long) pairs where the value is the frequency of each key.",
+    "hint": "Counts by element value, not key.",
+    "difficulty": 3,
+    "tags": ["bda-unit-6", "spark-streaming", "transformations"]
+  },
+  {
+    "question": "Which feature of Structured Streaming ensures end-to-end exactly-once processing?",
+    "answer": "Checkpointing and write-ahead logs",
+    "distractors": ["Garbage collection and caching", "Replication and sharding", "DAG scheduling and partitioning"],
+    "explanation": "Structured Streaming uses checkpointing and write-ahead logs (WAL) to ensure end-to-end exactly-once fault-tolerant processing.",
+    "hint": "Two mechanisms for state and recoverability.",
+    "difficulty": 4,
+    "tags": ["bda-unit-6", "structured-streaming", "fault-tolerance"]
+  },
+  {
+    "question": "What does 'event-time processing' refer to in Structured Streaming?",
+    "answer": "Processing data based on timestamps embedded in the records",
+    "distractors": ["Processing data based on when it arrives at the system", "Processing data only at specific scheduled times", "Processing data based on CPU load events"],
+    "explanation": "Event-time processing uses the timestamp embedded in the data itself (when the event was generated), not when it reached the system, allowing correct handling of out-of-order events.",
+    "hint": "Time when the event happened, not when it was received.",
+    "difficulty": 4,
+    "tags": ["bda-unit-6", "structured-streaming", "event-time"]
+  },
+  {
+    "question": "In HDFS, what does the 'cat' command do?",
+    "answer": "Reads a file in HDFS and prints its content to standard output",
+    "distractors": ["Creates a new directory in HDFS", "Counts files in HDFS", "Copies files to HDFS"],
+    "explanation": "hdfs dfs -cat /path/to/file prints the file content to stdout, similar to the Unix cat command.",
+    "hint": "Same as the Unix command for displaying file contents.",
+    "difficulty": 2,
+    "tags": ["bda-unit-1", "hdfs", "commands"]
+  },
+  {
+    "question": "Which Hadoop component handles batch processing through the Map and Reduce phases?",
+    "answer": "MapReduce",
+    "distractors": ["HDFS", "YARN", "ZooKeeper"],
+    "explanation": "MapReduce is Hadoop's programming framework that processes data in two phases: Map (filtering/sorting) and Reduce (aggregating).",
+    "hint": "Its name has the two phases in it.",
+    "difficulty": 1,
+    "tags": ["bda-unit-1", "mapreduce", "hadoop"]
+  },
+  {
+    "question": "In Hive, which clause is used in window functions to define groups for the function to operate on?",
+    "answer": "PARTITION BY",
+    "distractors": ["GROUP BY", "CLUSTER BY", "DISTRIBUTE BY"],
+    "explanation": "PARTITION BY inside OVER() defines partitions/groups within which the window function operates, separately for each partition.",
+    "hint": "Used inside OVER() clause.",
+    "difficulty": 3,
+    "tags": ["bda-unit-2", "hive", "window-functions"]
+  },
+  {
+    "question": "Which Spark RDD action returns the first N elements of an RDD?",
+    "answer": "take(n)",
+    "distractors": ["first()", "collect()", "head(n)"],
+    "explanation": "take(n) returns an array with the first n elements. first() returns just one element. collect() returns all elements.",
+    "hint": "It 'takes' a specific number of elements.",
+    "difficulty": 2,
+    "tags": ["bda-unit-4", "spark", "actions"]
+  },
+  {
+    "question": "What is the maximum length of a Hive VARCHAR data type?",
+    "answer": "65535 bytes",
+    "distractors": ["255 bytes", "1024 bytes", "Unlimited"],
+    "explanation": "Hive VARCHAR has a length range of 1 to 65535 bytes. CHAR has a fixed max length of 255.",
+    "hint": "It's 2^16 - 1.",
+    "difficulty": 4,
+    "tags": ["bda-unit-2", "hive", "data-types"]
+  },
+  {
+    "question": "Which Hadoop component manages the underlying coordination of distributed services in HBase?",
+    "answer": "Zookeeper",
+    "distractors": ["YARN", "HDFS", "MapReduce"],
+    "explanation": "Zookeeper provides coordination services like configuration management and failure notification in HBase and other distributed systems.",
+    "hint": "It zoos and keeps the cluster.",
+    "difficulty": 2,
+    "tags": ["bda-unit-3", "hbase", "zookeeper"]
+  }
+]

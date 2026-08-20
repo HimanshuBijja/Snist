@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Blog Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Web Technologies</h2>
+            <p><strong>Author:</strong>ABCDE</p>
+            <p>Welcome to Web Technologies world, We design/create Beautiful and Interactive websites</p>
+        </article>
+        <section id="comments">
+            <h3>Comments</h3>
+            <ul id="commentList">
+                <!-- Comments will be appended here by JavaScript -->
+            </ul>
+            <form id="commentForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+                <button type="submit" onclick="addComment()">Submit Comment</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
